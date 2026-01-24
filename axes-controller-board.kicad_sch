@@ -1,0 +1,17 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "88591975-6c45-4e1d-8f38-0b5760acfc98")
+	(paper "A4")
+	(title_block
+		(title "Dedalus Motherboard")
+		(company "Leonardo Pasquato")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
