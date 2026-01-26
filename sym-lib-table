@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TPS5450")(type "KiCad")(uri "${KIPRJMOD}/libs/TPS5450/TPS5450QDDARQ1.kicad_sym")(options "")(descr ""))
+)
