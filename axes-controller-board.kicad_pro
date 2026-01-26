@@ -386,6 +386,18 @@
     [
       "88591975-6c45-4e1d-8f38-0b5760acfc98",
       "Root"
+    ],
+    [
+      "c097ae7b-8719-410e-a8dd-87fc27181b2b",
+      "Sensors"
+    ],
+    [
+      "37bdac2b-aaa0-48b9-94b0-0180a23198dc",
+      "MCU"
+    ],
+    [
+      "c97b91ca-0c26-4974-9c9d-118688e0e75d",
+      "Motor Drivers"
     ]
   ],
   "text_variables": {}

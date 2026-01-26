@@ -5043,6 +5043,120 @@
 			)
 		)
 	)
+	(sheet
+		(at 176.53 133.35)
+		(size 63.246 76.2)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "37bdac2b-aaa0-48b9-94b0-0180a23198dc")
+		(property "Sheetname" "MCU"
+			(at 176.53 132.6384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 176.53 210.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "axes-controller-board"
+				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.708 133.604)
+		(size 59.182 75.946)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c097ae7b-8719-410e-a8dd-87fc27181b2b")
+		(property "Sheetname" "Sensors"
+			(at 76.708 132.8924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 76.708 210.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "axes-controller-board"
+				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 271.78 133.604)
+		(size 55.118 75.946)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c97b91ca-0c26-4974-9c9d-118688e0e75d")
+		(property "Sheetname" "Motor Drivers"
+			(at 271.78 132.8924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "drivers.kicad_sch"
+			(at 271.78 210.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "axes-controller-board"
+				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
