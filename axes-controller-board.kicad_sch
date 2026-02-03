@@ -2844,6 +2844,26 @@
 		)
 		(uuid "7c676986-f100-4bd5-b8b6-2b1cc17c4124")
 	)
+	(polyline
+		(pts
+			(xy 57.912 203.2) (xy 57.912 271.018)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c9da1df-258a-4672-85ff-5ed88d9a4a6c")
+	)
+	(polyline
+		(pts
+			(xy 57.912 270.764) (xy 158.496 270.764)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84736eef-64d2-4146-b897-d71a4a4692a8")
+	)
 	(wire
 		(pts
 			(xy 274.32 59.69) (xy 274.32 62.23)
@@ -3284,6 +3304,26 @@
 		)
 		(uuid "e602a4f8-2adc-47dc-98a7-88ad0eff7148")
 	)
+	(polyline
+		(pts
+			(xy 57.912 203.2) (xy 158.496 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9747439-c512-4a9b-a1eb-78f6f173defd")
+	)
+	(polyline
+		(pts
+			(xy 158.496 270.764) (xy 158.496 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec3f0d12-0f9d-4ee3-a615-e9983e92ad43")
+	)
 	(wire
 		(pts
 			(xy 240.03 62.23) (xy 240.03 59.69)
@@ -3385,6 +3425,18 @@
 			)
 		)
 		(uuid "17e1e947-71c2-4fd6-8e87-e51ad3c2076b")
+	)
+	(text "Heatbed"
+		(exclude_from_sim no)
+		(at 61.468 202.438 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "480bcd6c-629f-4a2d-9b38-fc94126001c2")
 	)
 	(text " IPT-4 DC Motor Drivers"
 		(exclude_from_sim no)
@@ -6125,7 +6177,7 @@
 		)
 	)
 	(sheet
-		(at 76.708 133.604)
+		(at 75.184 101.346)
 		(size 59.182 75.946)
 		(fields_autoplaced yes)
 		(stroke
@@ -6137,7 +6189,7 @@
 		)
 		(uuid "c097ae7b-8719-410e-a8dd-87fc27181b2b")
 		(property "Sheetname" "Sensors"
-			(at 76.708 132.8924 0)
+			(at 75.184 100.6344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6146,7 +6198,7 @@
 			)
 		)
 		(property "Sheetfile" "sensors.kicad_sch"
-			(at 76.708 210.1346 0)
+			(at 75.184 177.8766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6155,7 +6207,7 @@
 			)
 		)
 		(pin "M1_B" output
-			(at 135.89 143.51 0)
+			(at 134.366 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6165,7 +6217,7 @@
 			(uuid "785191aa-9d52-41f3-b284-2177825265c0")
 		)
 		(pin "M1_A" output
-			(at 135.89 140.97 0)
+			(at 134.366 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6175,7 +6227,7 @@
 			(uuid "1ea90c02-e0c5-4450-bf9f-4461dcdca7b2")
 		)
 		(pin "M1_A+" input
-			(at 76.708 138.43 180)
+			(at 75.184 106.172 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6185,7 +6237,7 @@
 			(uuid "23e5d47e-448b-45f0-8511-f521e6307070")
 		)
 		(pin "M1_A-" input
-			(at 76.708 140.97 180)
+			(at 75.184 108.712 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6195,7 +6247,7 @@
 			(uuid "a261c19c-8377-4cb2-98a3-2b831f2b2f3a")
 		)
 		(pin "M1_B-" input
-			(at 76.708 146.05 180)
+			(at 75.184 113.792 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6205,7 +6257,7 @@
 			(uuid "50a13c2e-27b9-4bb6-8b2f-207d1649a233")
 		)
 		(pin "M1_B+" input
-			(at 76.708 143.51 180)
+			(at 75.184 111.252 180)
 			(effects
 				(font
 					(size 1.27 1.27)

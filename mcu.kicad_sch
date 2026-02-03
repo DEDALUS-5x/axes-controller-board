@@ -7364,6 +7364,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 110.49) (xy 273.05 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4905ea6-8bf3-47bc-9268-e3b583b2c748")
+	)
+	(wire
+		(pts
 			(xy 40.64 39.37) (xy 31.75 39.37)
 		)
 		(stroke
@@ -7451,6 +7461,16 @@
 			(type default)
 		)
 		(uuid "bcada7b5-acfc-46b9-8269-8ae86525411b")
+	)
+	(wire
+		(pts
+			(xy 261.62 107.95) (xy 273.05 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be4d46de-861a-4b91-b18f-4b1e2773af59")
 	)
 	(wire
 		(pts
@@ -8486,6 +8506,16 @@
 		)
 		(uuid "6f344e17-bd09-4ddd-85f3-8bb6d6c1dba9")
 	)
+	(label "SWDIO"
+		(at 273.05 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "72657e8d-80c0-48d7-82d8-9f676153804c")
+	)
 	(label "VREF+"
 		(at 146.05 176.53 0)
 		(effects
@@ -8785,6 +8815,16 @@
 			(justify right bottom)
 		)
 		(uuid "fb6861ae-2da3-4eb3-9402-d7f2e7f797d3")
+	)
+	(label "SWCLK"
+		(at 273.05 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fbb93c70-e8a4-4e7f-b0d4-98570bf35394")
 	)
 	(label "VSS_8"
 		(at 41.91 105.41 180)
