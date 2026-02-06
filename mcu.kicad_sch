@@ -5112,6 +5112,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 204.47) (xy 180.34 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a6e10f8-dcda-47f1-a94d-2eb87701f64b")
+	)
+	(wire
+		(pts
 			(xy 41.91 105.41) (xy 31.75 105.41)
 		)
 		(stroke
@@ -5592,6 +5602,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 184.15) (xy 157.48 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cf77560-a00a-49b3-8d05-455982654acd")
+	)
+	(wire
+		(pts
 			(xy 41.91 134.62) (xy 38.1 134.62)
 		)
 		(stroke
@@ -5702,6 +5722,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 204.47) (xy 175.26 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58078840-d656-49d2-b40d-631a03fb26d2")
+	)
+	(wire
+		(pts
 			(xy 27.94 93.98) (xy 27.94 95.25)
 		)
 		(stroke
@@ -5799,6 +5829,16 @@
 			(type default)
 		)
 		(uuid "61536076-d3b6-4fca-9c53-ac213709b366")
+	)
+	(wire
+		(pts
+			(xy 261.62 181.61) (xy 273.05 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "629a2ea6-03b4-4fc6-a4c7-2f61fcdd616c")
 	)
 	(polyline
 		(pts
@@ -5919,6 +5959,16 @@
 			(type default)
 		)
 		(uuid "711d8298-6ed8-4ab6-9652-d3bc991ed020")
+	)
+	(wire
+		(pts
+			(xy 177.8 204.47) (xy 177.8 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7169201a-df9b-4294-9752-10cbc4105cff")
 	)
 	(wire
 		(pts
@@ -6089,6 +6139,16 @@
 			(type default)
 		)
 		(uuid "8520076e-fba7-4120-a69c-0171a7c10d50")
+	)
+	(wire
+		(pts
+			(xy 151.13 181.61) (xy 157.48 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "883096f6-56dd-4d32-836c-43c912060be0")
 	)
 	(wire
 		(pts
@@ -6862,6 +6922,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 179.07) (xy 273.05 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0bc83d1-09e8-422d-bc10-cc570b5f9498")
+	)
+	(wire
+		(pts
 			(xy 67.31 199.39) (xy 67.31 198.12)
 		)
 		(stroke
@@ -7019,6 +7089,16 @@
 			(type default)
 		)
 		(uuid "fea10281-37a1-4221-affb-47e7f20141fd")
+	)
+	(wire
+		(pts
+			(xy 193.04 74.93) (xy 193.04 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fea27a26-054b-4ec0-b689-d3cbe82d74cd")
 	)
 	(text "Decoupling"
 		(exclude_from_sim no)
@@ -7229,6 +7309,16 @@
 			(justify right bottom)
 		)
 		(uuid "1bd959d6-9a57-4717-8b85-24de44ac9bc0")
+	)
+	(label "TX_SWD"
+		(at 273.05 181.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "22f6cc1b-5c77-4685-895b-56f5c840a2d5")
 	)
 	(label "LED_2"
 		(at 389.89 133.35 0)
@@ -7469,6 +7559,16 @@
 			(justify left bottom)
 		)
 		(uuid "692429af-c395-4d5e-bb97-f8c9ef618ec3")
+	)
+	(label "RX_SWD"
+		(at 273.05 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "69471a17-342f-47ef-8b14-b466897da63b")
 	)
 	(label "VCAP2"
 		(at 273.05 102.87 180)
@@ -7819,6 +7919,138 @@
 			(justify left bottom)
 		)
 		(uuid "ffcfc6b1-f4b1-4c5e-bc91-be2c6f8885a0")
+	)
+	(hierarchical_label "X_DC_PWM_1"
+		(shape output)
+		(at 292.1 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "041fa00f-c621-41df-a31e-902fe9b9a6d9")
+	)
+	(hierarchical_label "M2Y2_A"
+		(shape input)
+		(at 177.8 209.55 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "424d21f7-7460-43d1-b90a-10961651f4b6")
+	)
+	(hierarchical_label "M1X_B"
+		(shape input)
+		(at 193.04 74.93 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4eb8efd5-819d-4586-a570-169bcd740f70")
+	)
+	(hierarchical_label "X_DC_PWM_2"
+		(shape output)
+		(at 292.1 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ad7e32f-a4cb-4b56-aa4b-fc4efa998c41")
+	)
+	(hierarchical_label "M1X_A"
+		(shape input)
+		(at 175.26 209.55 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5adb0e50-d574-4a83-a19b-810ef9dbfddb")
+	)
+	(hierarchical_label "Y1_DC_PWM_2"
+		(shape output)
+		(at 292.1 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ee02d33-a094-4e06-aaae-0ca0a2f6c6dc")
+	)
+	(hierarchical_label "Y2_DC_PWM_1"
+		(shape output)
+		(at 292.1 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "63ef081a-ed2f-4f69-9db4-0fd9c0496e59")
+	)
+	(hierarchical_label "M1Y1_B"
+		(shape input)
+		(at 151.13 184.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86205710-b645-4be9-a6e1-8da0d02ee7ab")
+	)
+	(hierarchical_label "Y2_DC_PWM_2"
+		(shape output)
+		(at 292.1 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b49952ce-3a07-4447-bd9c-7e413c59c49b")
+	)
+	(hierarchical_label "M1Y1_A"
+		(shape input)
+		(at 151.13 181.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cca53ff0-48b4-4e2e-a96a-3aa5ac01807e")
+	)
+	(hierarchical_label "Y1_DC_PWM_1"
+		(shape output)
+		(at 292.1 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db4f627a-941d-4db1-81b7-a6c7997164ab")
+	)
+	(hierarchical_label "M2Y2_B"
+		(shape input)
+		(at 180.34 209.55 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db68324e-9f80-4fc6-b992-faa127e85d92")
 	)
 	(symbol
 		(lib_id "Device:C")

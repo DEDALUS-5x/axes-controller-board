@@ -12382,8 +12382,8 @@
 		)
 	)
 	(sheet
-		(at 147.32 124.46)
-		(size 63.246 76.2)
+		(at 147.066 124.46)
+		(size 63.754 76.2)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -12394,7 +12394,7 @@
 		)
 		(uuid "37bdac2b-aaa0-48b9-94b0-0180a23198dc")
 		(property "Sheetname" "MCU"
-			(at 147.32 123.7484 0)
+			(at 147.066 123.7484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12403,13 +12403,73 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 147.32 201.2446 0)
+			(at 147.066 201.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "X_DC_PWM_1" output
+			(at 210.82 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6fa1622a-e582-4e76-937e-9f271d707346")
+		)
+		(pin "X_DC_PWM_2" output
+			(at 210.82 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "443e9fd5-80f8-4885-99e4-eb2c9dda0574")
+		)
+		(pin "Y1_DC_PWM_1" output
+			(at 210.82 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e80f0626-200d-4ca9-ae87-20223e1e0427")
+		)
+		(pin "Y2_DC_PWM_1" output
+			(at 210.82 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6b12699c-f066-43d0-9baf-75b6ba1b6e01")
+		)
+		(pin "Y1_DC_PWM_2" output
+			(at 210.82 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9c9cd829-29c5-4799-9d10-a639492c93ce")
+		)
+		(pin "Y2_DC_PWM_2" output
+			(at 210.82 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "533a1a31-ac36-4672-842a-b4a646cd4c47")
 		)
 		(instances
 			(project "axes-controller-board"
