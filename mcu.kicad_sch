@@ -5190,6 +5190,16 @@
 		)
 		(uuid "229a04ca-cf72-4f61-9350-b84cea3b3527")
 	)
+	(wire
+		(pts
+			(xy 223.52 204.47) (xy 223.52 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23727728-6f33-4964-8678-e753ea70bae4")
+	)
 	(polyline
 		(pts
 			(xy 247.65 257.81) (xy 212.09 257.81)
@@ -5219,6 +5229,16 @@
 			(type default)
 		)
 		(uuid "24678bba-abef-4dec-8aea-f697bffcc003")
+	)
+	(wire
+		(pts
+			(xy 261.62 128.27) (xy 266.7 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25bb2dbf-62aa-461c-8839-87516e4c5641")
 	)
 	(wire
 		(pts
@@ -6642,6 +6662,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 204.47) (xy 238.76 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bffa7b28-d4eb-4ed0-9fc1-7ab5ec75b65a")
+	)
+	(wire
+		(pts
 			(xy 261.62 158.75) (xy 273.05 158.75)
 		)
 		(stroke
@@ -6982,6 +7012,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 204.47) (xy 241.3 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e51abf8f-8948-40f1-a196-7558e2edd154")
+	)
+	(wire
+		(pts
 			(xy 67.31 199.39) (xy 67.31 198.12)
 		)
 		(stroke
@@ -7132,6 +7172,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 204.47) (xy 233.68 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbcf74e5-c4cf-46cb-95e9-afa66905d1ac")
+	)
+	(wire
+		(pts
 			(xy 91.44 127) (xy 82.55 127)
 		)
 		(stroke
@@ -7139,6 +7189,16 @@
 			(type default)
 		)
 		(uuid "fc4b8234-86a9-4c60-9aa5-69ca82f1c820")
+	)
+	(wire
+		(pts
+			(xy 261.62 125.73) (xy 266.7 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fca5b240-b3b0-45cb-9d25-81e5fb44b8a7")
 	)
 	(wire
 		(pts
@@ -7982,12 +8042,12 @@
 	)
 	(hierarchical_label "X_DC_PWM_1"
 		(shape output)
-		(at 292.1 170.18 0)
+		(at 223.52 208.28 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "041fa00f-c621-41df-a31e-902fe9b9a6d9")
 	)
@@ -8002,7 +8062,7 @@
 		)
 		(uuid "0cfb9ca9-aea8-4310-b277-9a766c7b0d24")
 	)
-	(hierarchical_label "M2Y2_A"
+	(hierarchical_label "MY2_A"
 		(shape input)
 		(at 177.8 209.55 270)
 		(effects
@@ -8013,7 +8073,7 @@
 		)
 		(uuid "424d21f7-7460-43d1-b90a-10961651f4b6")
 	)
-	(hierarchical_label "M1X_B"
+	(hierarchical_label "MX_B"
 		(shape input)
 		(at 193.04 74.93 90)
 		(effects
@@ -8026,16 +8086,16 @@
 	)
 	(hierarchical_label "X_DC_PWM_2"
 		(shape output)
-		(at 292.1 172.72 0)
+		(at 233.68 208.28 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "5ad7e32f-a4cb-4b56-aa4b-fc4efa998c41")
 	)
-	(hierarchical_label "M1X_A"
+	(hierarchical_label "MX_A"
 		(shape input)
 		(at 175.26 209.55 270)
 		(effects
@@ -8048,12 +8108,12 @@
 	)
 	(hierarchical_label "Y1_DC_PWM_2"
 		(shape output)
-		(at 292.1 177.8 0)
+		(at 241.3 208.28 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "5ee02d33-a094-4e06-aaae-0ca0a2f6c6dc")
 	)
@@ -8070,7 +8130,7 @@
 	)
 	(hierarchical_label "Y2_DC_PWM_1"
 		(shape output)
-		(at 292.1 180.34 0)
+		(at 266.7 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8090,7 +8150,7 @@
 		)
 		(uuid "738a8364-fbff-49ec-b981-db24b20a86d6")
 	)
-	(hierarchical_label "M1Y1_B"
+	(hierarchical_label "MY1_B"
 		(shape input)
 		(at 151.13 184.15 180)
 		(effects
@@ -8114,7 +8174,7 @@
 	)
 	(hierarchical_label "Y2_DC_PWM_2"
 		(shape output)
-		(at 292.1 182.88 0)
+		(at 266.7 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8123,7 +8183,7 @@
 		)
 		(uuid "b49952ce-3a07-4447-bd9c-7e413c59c49b")
 	)
-	(hierarchical_label "M1Y1_A"
+	(hierarchical_label "MY1_A"
 		(shape input)
 		(at 151.13 181.61 180)
 		(effects
@@ -8136,16 +8196,16 @@
 	)
 	(hierarchical_label "Y1_DC_PWM_1"
 		(shape output)
-		(at 292.1 175.26 0)
+		(at 238.76 208.28 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "db4f627a-941d-4db1-81b7-a6c7997164ab")
 	)
-	(hierarchical_label "M2Y2_B"
+	(hierarchical_label "MY2_B"
 		(shape input)
 		(at 180.34 209.55 270)
 		(effects

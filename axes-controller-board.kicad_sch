@@ -12471,26 +12471,6 @@
 			)
 			(uuid "533a1a31-ac36-4672-842a-b4a646cd4c47")
 		)
-		(pin "M1Y1_B" input
-			(at 147.066 130.81 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "71e9f23c-b4bc-4934-baa4-14eff2fed4c0")
-		)
-		(pin "M1Y1_A" input
-			(at 147.066 133.35 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "938d1fab-f916-47e8-ad16-dbfb2184b2d1")
-		)
 		(pin "SPI2_SCK" output
 			(at 147.066 156.21 180)
 			(effects
@@ -12500,16 +12480,6 @@
 				(justify left)
 			)
 			(uuid "fa1d70f4-77b9-4ecf-b9e2-de83ff7856e3")
-		)
-		(pin "M1X_B" input
-			(at 147.066 137.16 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "4f9528f0-5a14-4fa5-8c57-f5bd74b81a77")
 		)
 		(pin "SPI1_SCK" output
 			(at 147.066 163.83 180)
@@ -12541,36 +12511,6 @@
 			)
 			(uuid "46b48b29-c591-4b90-a44d-eb9f1e357946")
 		)
-		(pin "M2Y2_A" input
-			(at 147.066 143.51 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8bf73fa9-66de-4009-bb7b-047fdf4b397a")
-		)
-		(pin "M1X_A" input
-			(at 147.066 139.7 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "40355739-1ba5-4755-a35b-c95c473e09f3")
-		)
-		(pin "M2Y2_B" input
-			(at 147.066 146.05 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "33dec200-805f-484c-a303-81e38ee62d54")
-		)
 		(pin "SPI2_MOSI" output
 			(at 147.066 153.67 180)
 			(effects
@@ -12580,6 +12520,76 @@
 				(justify left)
 			)
 			(uuid "e384f174-1dee-466b-a37e-f6cf3b56ee26")
+		)
+		(pin "SPI2_MISO" input
+			(at 147.066 151.13 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4e36a8eb-4ff3-44ba-917f-87f6c47cc80d")
+		)
+		(pin "MX_B" input
+			(at 147.066 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "10855cae-3389-437d-b02a-066f4b6cb0d3")
+		)
+		(pin "MY2_B" input
+			(at 147.066 146.05 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0f35d1da-0fd5-4e68-9671-47a79f7b7fb6")
+		)
+		(pin "MX_A" input
+			(at 147.066 130.81 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bb3d47cf-f077-44bf-b01e-e698dbfd5940")
+		)
+		(pin "MY2_A" input
+			(at 147.066 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c7ba02d6-0a8e-4390-bc5b-1e5264ae2e67")
+		)
+		(pin "MY1_A" input
+			(at 147.066 137.16 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "784754ec-2809-4a97-957f-fa36c56c6e92")
+		)
+		(pin "MY1_B" input
+			(at 147.066 139.7 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "228abde8-321a-4bbf-814d-bec4f460bf5c")
 		)
 		(instances
 			(project "axes-controller-board"
