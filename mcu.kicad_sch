@@ -5512,6 +5512,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 76.2) (xy 248.92 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43781864-b2ea-49fd-96ba-771a697a1f90")
+	)
+	(wire
+		(pts
 			(xy 101.6 77.47) (xy 101.6 76.2)
 		)
 		(stroke
@@ -6222,6 +6232,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 76.2) (xy 246.38 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ad3ffe0-2e4d-462f-b268-9029a7fe6a6a")
+	)
+	(wire
+		(pts
 			(xy 73.66 66.04) (xy 73.66 67.31)
 		)
 		(stroke
@@ -6910,6 +6930,16 @@
 		)
 		(uuid "d78ccced-bb0f-40e1-99e8-f56b1fc086e0")
 	)
+	(wire
+		(pts
+			(xy 172.72 204.47) (xy 172.72 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d905cd64-1f5a-4fc5-afab-076d0beb3eb2")
+	)
 	(polyline
 		(pts
 			(xy 63.5 272.288) (xy 16.51 272.288)
@@ -7139,6 +7169,16 @@
 			(type default)
 		)
 		(uuid "f4c57b14-7733-406e-9423-69ba80350bea")
+	)
+	(wire
+		(pts
+			(xy 193.04 204.47) (xy 193.04 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f74fd90e-63b6-413b-8d5f-fcb6b71022d6")
 	)
 	(wire
 		(pts
@@ -8062,6 +8102,17 @@
 		)
 		(uuid "0cfb9ca9-aea8-4310-b277-9a766c7b0d24")
 	)
+	(hierarchical_label "SPI3_MOSI"
+		(shape input)
+		(at 193.04 209.55 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "40433871-9303-4071-a006-fd7d07ba9a67")
+	)
 	(hierarchical_label "MY2_A"
 		(shape input)
 		(at 177.8 209.55 270)
@@ -8072,6 +8123,17 @@
 			(justify right)
 		)
 		(uuid "424d21f7-7460-43d1-b90a-10961651f4b6")
+	)
+	(hierarchical_label "SPI3_MISO"
+		(shape output)
+		(at 246.38 76.2 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d9cd406-ee69-4175-b040-8568490451d5")
 	)
 	(hierarchical_label "MX_B"
 		(shape input)
@@ -8139,6 +8201,17 @@
 		)
 		(uuid "63ef081a-ed2f-4f69-9db4-0fd9c0496e59")
 	)
+	(hierarchical_label "SPI3_NSS"
+		(shape input)
+		(at 172.72 209.55 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6e09e4a1-179b-4574-8a9e-ba504142e4c6")
+	)
 	(hierarchical_label "SPI2_SCK"
 		(shape output)
 		(at 246.38 208.28 270)
@@ -8160,6 +8233,17 @@
 			(justify right)
 		)
 		(uuid "86205710-b645-4be9-a6e1-8da0d02ee7ab")
+	)
+	(hierarchical_label "SPI3_SCK"
+		(shape input)
+		(at 248.92 76.2 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ea5c6f0-32a8-4969-9066-89fdf4f8fc6c")
 	)
 	(hierarchical_label "SPI1_SCK"
 		(shape output)
