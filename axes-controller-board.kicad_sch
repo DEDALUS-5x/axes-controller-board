@@ -5415,7 +5415,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 41.91) (xy 200.66 43.18)
+			(xy 200.66 38.1) (xy 200.66 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5535,7 +5535,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 26.67) (xy 200.66 34.29)
+			(xy 200.66 26.67) (xy 200.66 30.48)
 		)
 		(stroke
 			(width 0)
@@ -9873,7 +9873,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4b9c1a3b-65f6-4f72-9b3b-c97f7809a57d")
 		(property "Reference" "L2"
 			(at 166.37 22.86 90)
@@ -9884,7 +9883,7 @@
 			)
 		)
 		(property "Value" "15u"
-			(at 166.37 25.4 90)
+			(at 166.37 24.892 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12694,7 +12693,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 200.66 38.1 0)
+		(at 200.66 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12703,7 +12702,7 @@
 		(fields_autoplaced yes)
 		(uuid "cece0ed6-5e5f-4983-942c-2578ac3b3cc1")
 		(property "Reference" "R8"
-			(at 203.2 36.8299 0)
+			(at 203.2 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12712,7 +12711,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 203.2 39.3699 0)
+			(at 203.2 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12721,7 +12720,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.882 38.1 90)
+			(at 198.882 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12730,7 +12729,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 38.1 0)
+			(at 200.66 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12739,7 +12738,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 200.66 38.1 0)
+			(at 200.66 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
