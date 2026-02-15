@@ -14644,7 +14644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2c544d2-4950-4731-9862-53735bea5fcd")
-		(property "Reference" "IC2"
+		(property "Reference" "IC?"
 			(at 265.43 91.4714 0)
 			(effects
 				(font
@@ -15170,6 +15170,14 @@
 		)
 		(pin "93"
 			(uuid "8dda0b8a-ae28-43d4-80f0-0ad532d513f0")
+		)
+		(instances
+			(project "axes-controller-board"
+				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98/37bdac2b-aaa0-48b9-94b0-0180a23198dc"
+					(reference "IC?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
