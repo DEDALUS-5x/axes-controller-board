@@ -12443,7 +12443,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "eagle_connectors:SAMTEC_FTSH-107-01-L-DV-K-TR"
+		(property "Footprint" "Local:SAMTEC_FTSH-107-01-L-DV-K-TR"
 			(at 33.02 246.38 0)
 			(effects
 				(font
@@ -14660,7 +14660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-144_20x20mm_P0.5mm"
+		(property "Footprint" "Local:QFP50P2200X2200X160-144N"
 			(at 257.81 182.55 0)
 			(effects
 				(font
