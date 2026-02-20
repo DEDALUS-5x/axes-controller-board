@@ -5038,6 +5038,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 204.47) (xy 236.22 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "092fa5c5-32bf-4cc8-bc0e-b7fbf98f6d1a")
+	)
+	(wire
+		(pts
 			(xy 389.89 133.35) (xy 397.51 133.35)
 		)
 		(stroke
@@ -5688,7 +5698,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 110.49) (xy 138.43 109.22)
+			(xy 133.35 110.49) (xy 133.35 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5788,7 +5798,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 110.49) (xy 138.43 110.49)
+			(xy 157.48 110.49) (xy 133.35 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5805,6 +5815,16 @@
 			(type default)
 		)
 		(uuid "4cf77560-a00a-49b3-8d05-455982654acd")
+	)
+	(wire
+		(pts
+			(xy 152.4 105.41) (xy 157.48 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dbb17d9-6ddf-47d1-9077-4f2a328a28ba")
 	)
 	(wire
 		(pts
@@ -6536,6 +6556,16 @@
 		)
 		(uuid "9074cb71-e44c-4b34-bc3e-2a7d8a6650f6")
 	)
+	(wire
+		(pts
+			(xy 220.98 204.47) (xy 220.98 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9083c086-3af3-4f57-8e9d-d058911fdd3e")
+	)
 	(polyline
 		(pts
 			(xy 16.256 26.416) (xy 121.158 26.416)
@@ -6635,6 +6665,16 @@
 			(type default)
 		)
 		(uuid "99d816b3-7633-43cc-be26-fab2707d83fc")
+	)
+	(wire
+		(pts
+			(xy 152.4 107.95) (xy 157.48 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bbe64c4-a249-4c8a-b1fd-d724fd4afb0f")
 	)
 	(wire
 		(pts
@@ -7445,16 +7485,6 @@
 			(type default)
 		)
 		(uuid "e5466d36-0a23-4f7e-a6ed-b033b9ba9cf8")
-	)
-	(wire
-		(pts
-			(xy 152.4 107.95) (xy 157.48 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5f8a7ba-9dd0-4516-9431-cf2d742e619a")
 	)
 	(wire
 		(pts
@@ -8633,6 +8663,17 @@
 		)
 		(uuid "24ef0b09-8a2a-46d1-92fd-80096f491c81")
 	)
+	(hierarchical_label "SPI4_SCK"
+		(shape output)
+		(at 236.22 208.28 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c8b9b36-a0d7-4817-9dd0-2726ae790376")
+	)
 	(hierarchical_label "EN_STEPPERS"
 		(shape output)
 		(at 152.4 97.79 180)
@@ -8643,6 +8684,17 @@
 			(justify right)
 		)
 		(uuid "31ed6b00-d266-4027-988a-5ad0d7fb8c15")
+	)
+	(hierarchical_label "SPI4_MISO"
+		(shape input)
+		(at 152.4 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e14307f-aa45-4a94-8387-639202977287")
 	)
 	(hierarchical_label "SPI3_MOSI"
 		(shape input)
@@ -8844,7 +8896,7 @@
 	)
 	(hierarchical_label "STEP_F"
 		(shape output)
-		(at 152.4 107.95 180)
+		(at 220.98 208.28 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8907,6 +8959,17 @@
 			(justify right)
 		)
 		(uuid "db68324e-9f80-4fc6-b992-faa127e85d92")
+	)
+	(hierarchical_label "SPI4_MOSI"
+		(shape output)
+		(at 152.4 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e344b7aa-4f9b-46e7-889e-fc7087265fda")
 	)
 	(hierarchical_label "STEP_Y"
 		(shape output)
@@ -15514,7 +15577,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 138.43 109.22 0)
+		(at 133.35 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15522,7 +15585,7 @@
 		(dnp no)
 		(uuid "e09f4c55-c5b7-41d1-bfe4-5556e9b1638d")
 		(property "Reference" "#PWR128"
-			(at 138.43 113.03 0)
+			(at 133.35 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15531,7 +15594,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 138.43 105.41 0)
+			(at 133.35 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15539,7 +15602,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 109.22 0)
+			(at 133.35 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15548,7 +15611,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 109.22 0)
+			(at 133.35 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15557,7 +15620,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 109.22 0)
+			(at 133.35 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
