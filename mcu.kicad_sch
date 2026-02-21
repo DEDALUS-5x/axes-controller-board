@@ -5548,6 +5548,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 74.93) (xy 175.26 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "377dbbdd-5b5d-45e8-891e-2614f2137ca6")
+	)
+	(wire
+		(pts
 			(xy 58.42 238.76) (xy 45.72 238.76)
 		)
 		(stroke
@@ -7538,6 +7548,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 76.2) (xy 213.36 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb723a0f-4023-4677-9664-9eededc90fc5")
+	)
+	(wire
+		(pts
 			(xy 50.8 49.53) (xy 54.61 49.53)
 		)
 		(stroke
@@ -8663,6 +8683,17 @@
 		)
 		(uuid "24ef0b09-8a2a-46d1-92fd-80096f491c81")
 	)
+	(hierarchical_label "SPI2_NSS"
+		(shape output)
+		(at 175.26 74.93 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2706a328-3f99-4d58-b30b-415e8e5e332e")
+	)
 	(hierarchical_label "SPI4_SCK"
 		(shape output)
 		(at 236.22 208.28 270)
@@ -8684,6 +8715,17 @@
 			(justify right)
 		)
 		(uuid "31ed6b00-d266-4027-988a-5ad0d7fb8c15")
+	)
+	(hierarchical_label "SPI1_NSS"
+		(shape output)
+		(at 213.36 76.2 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3986060a-3062-47b9-95e4-09863f3accd0")
 	)
 	(hierarchical_label "SPI4_MISO"
 		(shape input)
