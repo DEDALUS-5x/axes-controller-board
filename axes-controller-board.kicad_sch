@@ -16759,8 +16759,8 @@
 		)
 	)
 	(sheet
-		(at 265.43 149.86)
-		(size 63.5 99.822)
+		(at 265.43 145.796)
+		(size 63.5 103.886)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -16771,7 +16771,7 @@
 		)
 		(uuid "37bdac2b-aaa0-48b9-94b0-0180a23198dc")
 		(property "Sheetname" "MCU"
-			(at 265.43 149.1484 0)
+			(at 265.43 145.0844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16988,16 +16988,6 @@
 			)
 			(uuid "9a143b04-8fa4-4626-975d-9885859e2d66")
 		)
-		(pin "SPI3_NSS" input
-			(at 265.43 154.94 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "2f96f939-7159-4b89-8b33-413d8746398e")
-		)
 		(pin "SPI3_SCK" input
 			(at 265.43 162.56 180)
 			(effects
@@ -17168,26 +17158,6 @@
 			)
 			(uuid "15435013-9672-4528-91da-15864777c5f2")
 		)
-		(pin "SPI1_NSS" output
-			(at 265.43 228.6 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "481cd759-be77-4175-a9a0-8f5795838fc5")
-		)
-		(pin "SPI2_NSS" output
-			(at 265.43 213.36 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "2e54fafd-e9be-4f5d-a46d-29692d203601")
-		)
 		(pin "SPI4_CSS_Y2" output
 			(at 265.43 205.74 180)
 			(effects
@@ -17217,6 +17187,36 @@
 				(justify left)
 			)
 			(uuid "0bc75e8f-e11d-4f81-9637-f5a86a055532")
+		)
+		(pin "SPI2_CSS" output
+			(at 265.43 228.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ab575bd7-6c27-49cd-a075-d5e53f17dafb")
+		)
+		(pin "SPI1_CSS" output
+			(at 265.43 213.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "babe3d27-3ddd-466d-9e32-1162e0ef6dd9")
+		)
+		(pin "SPI3_CSS" output
+			(at 265.43 154.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9acc4968-2f19-4af3-a12a-f0c2e96d3b04")
 		)
 		(instances
 			(project "axes-controller-board"

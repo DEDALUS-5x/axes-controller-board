@@ -5568,7 +5568,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 74.93) (xy 175.26 80.01)
+			(xy 153.67 168.91) (xy 157.48 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5875,6 +5875,16 @@
 			(type default)
 		)
 		(uuid "5073bb73-272d-4883-bf07-951389f8d732")
+	)
+	(wire
+		(pts
+			(xy 261.62 163.83) (xy 273.05 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "513017a2-c635-42df-a0ce-0fda4072ee1f")
 	)
 	(wire
 		(pts
@@ -7368,7 +7378,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 204.47) (xy 172.72 209.55)
+			(xy 190.5 204.47) (xy 190.5 209.55)
 		)
 		(stroke
 			(width 0)
@@ -7485,6 +7495,16 @@
 			(type default)
 		)
 		(uuid "de675ff8-6ce2-4984-988f-23be9a69d99f")
+	)
+	(wire
+		(pts
+			(xy 261.62 166.37) (xy 273.05 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e03ebf96-bb16-43d8-ac71-730e521fbbe9")
 	)
 	(wire
 		(pts
@@ -8329,6 +8349,16 @@
 		)
 		(uuid "809c7a11-d79d-4ce5-b8f6-b92325f6d1ad")
 	)
+	(label "LED_1"
+		(at 273.05 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "898d76a2-65be-4d27-8b09-c55f3943d956")
+	)
 	(label "VDD_8"
 		(at 273.05 97.79 180)
 		(effects
@@ -8549,6 +8579,16 @@
 		)
 		(uuid "e5a494e7-9145-42bd-972d-f1ec346a770d")
 	)
+	(label "LED_2"
+		(at 273.05 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e691eb03-7820-4d1e-9c0f-232d59e19d13")
+	)
 	(label "OSC_OUT"
 		(at 146.05 156.21 0)
 		(effects
@@ -8724,14 +8764,14 @@
 		)
 		(uuid "24ef0b09-8a2a-46d1-92fd-80096f491c81")
 	)
-	(hierarchical_label "SPI2_NSS"
+	(hierarchical_label "SPI2_CSS"
 		(shape output)
-		(at 175.26 74.93 90)
+		(at 153.67 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "2706a328-3f99-4d58-b30b-415e8e5e332e")
 	)
@@ -8768,7 +8808,7 @@
 		)
 		(uuid "31ed6b00-d266-4027-988a-5ad0d7fb8c15")
 	)
-	(hierarchical_label "SPI1_NSS"
+	(hierarchical_label "SPI1_CSS"
 		(shape output)
 		(at 213.36 76.2 90)
 		(effects
@@ -8911,9 +8951,9 @@
 		)
 		(uuid "69a2d7f7-144a-400c-8797-83f32eb7963d")
 	)
-	(hierarchical_label "SPI3_NSS"
-		(shape input)
-		(at 172.72 209.55 270)
+	(hierarchical_label "SPI3_CSS"
+		(shape output)
+		(at 190.5 209.55 270)
 		(effects
 			(font
 				(size 1.27 1.27)
