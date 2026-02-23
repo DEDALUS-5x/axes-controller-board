@@ -1,3 +1,5 @@
 axes-controller-board-backups/
 ~*
 \#auto*
+_autosave*
+fp-info-cache
