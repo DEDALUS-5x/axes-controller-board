@@ -4397,12 +4397,6 @@
 		(uuid "4d29141a-f185-4450-bd64-1dd04fc6dc5f")
 	)
 	(junction
-		(at 250.19 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "535b2ccb-5729-435a-bba0-7e57a4bb1a87")
-	)
-	(junction
 		(at 421.64 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4437,12 +4431,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68fd2188-e728-4f69-9f1c-3020f55cae84")
-	)
-	(junction
-		(at 261.62 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "692d2d84-7a98-4a0b-a91d-061e2554bba8")
 	)
 	(junction
 		(at 275.59 59.69)
@@ -4529,6 +4517,12 @@
 		(uuid "b24803cb-103b-4b99-9893-13e09a1a238a")
 	)
 	(junction
+		(at 261.62 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b98941ec-2cdd-42e4-89ba-da897f67b823")
+	)
+	(junction
 		(at 421.64 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4551,6 +4545,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ccc1edfd-bef9-4213-a188-e4491522fb0a")
+	)
+	(junction
+		(at 250.19 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdb102c8-8119-4644-8ff9-4dff50a84bde")
 	)
 	(junction
 		(at 518.16 85.09)
@@ -6506,6 +6506,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 49.53) (xy 256.54 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70e91991-ce2b-478b-a395-ebaaa1ad13aa")
+	)
+	(wire
+		(pts
 			(xy 125.73 185.42) (xy 128.27 185.42)
 		)
 		(stroke
@@ -6673,6 +6683,16 @@
 			(type default)
 		)
 		(uuid "782b3e2b-0045-4a9c-a647-9f742b8477e5")
+	)
+	(wire
+		(pts
+			(xy 256.54 49.53) (xy 256.54 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78f90dc6-c446-4f8d-90ab-bb32a5d60b50")
 	)
 	(wire
 		(pts
@@ -7043,6 +7063,16 @@
 			(type default)
 		)
 		(uuid "9071d965-173d-4458-a345-c9c7d990f9dc")
+	)
+	(wire
+		(pts
+			(xy 256.54 63.5) (xy 250.19 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9105e024-0692-499e-94a5-18facf22400d")
 	)
 	(wire
 		(pts
@@ -8226,16 +8256,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 49.53) (xy 261.62 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd57e418-b669-4574-9d6b-a496a89296ac")
-	)
-	(wire
-		(pts
 			(xy 476.25 88.9) (xy 476.25 87.63)
 		)
 		(stroke
@@ -9196,6 +9216,16 @@
 		)
 		(uuid "abdc2bbc-77e1-48b7-9116-142f7bf646b1")
 	)
+	(label "IBC"
+		(at 256.54 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad569160-b146-4a22-ba44-0419223fb6c2")
+	)
 	(label "EN_MOD"
 		(at 469.9 265.43 0)
 		(effects
@@ -9735,7 +9765,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 74.93 242.57 180)
+		(at 74.93 240.03 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9743,7 +9774,7 @@
 		(dnp no)
 		(uuid "136d86f1-3750-4ce0-8933-b142d3663a72")
 		(property "Reference" "J28"
-			(at 70.358 239.522 0)
+			(at 70.358 243.078 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9751,7 +9782,7 @@
 			)
 		)
 		(property "Value" "DC1"
-			(at 70.358 242.316 0)
+			(at 70.358 240.284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9759,7 +9790,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 74.93 242.57 0)
+			(at 74.93 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9768,7 +9799,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 242.57 0)
+			(at 74.93 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9777,7 +9808,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 74.93 242.57 0)
+			(at 74.93 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9867,7 +9898,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 74.93 257.81 180)
+		(at 74.93 255.27 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9875,7 +9907,7 @@
 		(dnp no)
 		(uuid "1bb5fbec-bac0-40ae-bdcd-3a382ca92ea4")
 		(property "Reference" "J30"
-			(at 70.358 254.762 0)
+			(at 70.358 258.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9883,7 +9915,7 @@
 			)
 		)
 		(property "Value" "DC3"
-			(at 70.358 257.556 0)
+			(at 70.358 255.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9891,7 +9923,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 74.93 257.81 0)
+			(at 74.93 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9900,7 +9932,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 257.81 0)
+			(at 74.93 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9909,7 +9941,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 74.93 257.81 0)
+			(at 74.93 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10140,7 +10172,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
-		(at 501.65 130.81 180)
+		(at 501.65 128.27 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10148,7 +10181,7 @@
 		(dnp no)
 		(uuid "25603bda-2a77-4813-992a-d70029053d5f")
 		(property "Reference" "J14"
-			(at 501.396 141.224 0)
+			(at 501.396 117.856 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10156,7 +10189,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08"
-			(at 501.65 143.256 0)
+			(at 501.65 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10164,7 +10197,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 501.65 130.81 0)
+			(at 501.65 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10173,7 +10206,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 501.65 130.81 0)
+			(at 501.65 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10182,7 +10215,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 501.65 130.81 0)
+			(at 501.65 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10225,7 +10258,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
-		(at 501.65 167.64 180)
+		(at 501.65 165.1 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10233,7 +10267,7 @@
 		(dnp no)
 		(uuid "2599c5db-724e-4474-b8ad-bd0649d710d3")
 		(property "Reference" "J17"
-			(at 501.396 178.054 0)
+			(at 501.396 154.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10241,7 +10275,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08"
-			(at 501.65 180.086 0)
+			(at 501.65 152.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10249,7 +10283,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 501.65 167.64 0)
+			(at 501.65 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10258,7 +10292,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 501.65 167.64 0)
+			(at 501.65 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10267,7 +10301,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 501.65 167.64 0)
+			(at 501.65 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10510,7 +10544,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
-		(at 501.65 204.47 180)
+		(at 501.65 201.93 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10518,7 +10553,7 @@
 		(dnp no)
 		(uuid "2bf935e2-3f13-406d-a84e-b9d8058fa387")
 		(property "Reference" "J20"
-			(at 501.396 214.884 0)
+			(at 501.396 191.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10526,7 +10561,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08"
-			(at 501.65 216.916 0)
+			(at 501.65 189.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10534,7 +10569,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 501.65 204.47 0)
+			(at 501.65 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10543,7 +10578,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 501.65 204.47 0)
+			(at 501.65 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10552,7 +10587,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 501.65 204.47 0)
+			(at 501.65 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10595,7 +10630,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
-		(at 501.65 240.03 180)
+		(at 501.65 237.49 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10603,7 +10639,7 @@
 		(dnp no)
 		(uuid "2f0e2eb8-21e0-43a7-8bde-87b5441b6e24")
 		(property "Reference" "J23"
-			(at 501.396 250.444 0)
+			(at 501.396 227.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10611,7 +10647,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08"
-			(at 501.65 252.476 0)
+			(at 501.65 225.044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10619,7 +10655,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 501.65 240.03 0)
+			(at 501.65 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10628,7 +10664,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 501.65 240.03 0)
+			(at 501.65 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10637,7 +10673,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 501.65 240.03 0)
+			(at 501.65 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14578,7 +14614,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
-		(at 501.65 95.25 180)
+		(at 501.65 92.71 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14586,7 +14623,7 @@
 		(dnp no)
 		(uuid "c1d8d0d2-af22-4693-b580-0a230d46806e")
 		(property "Reference" "J10"
-			(at 501.396 105.664 0)
+			(at 501.396 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14594,7 +14631,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08"
-			(at 501.65 107.696 0)
+			(at 501.65 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14602,7 +14639,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 501.65 95.25 0)
+			(at 501.65 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14611,7 +14648,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 501.65 95.25 0)
+			(at 501.65 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14620,7 +14657,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 501.65 95.25 0)
+			(at 501.65 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15376,7 +15413,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
-		(at 501.65 275.59 180)
+		(at 501.65 273.05 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15384,7 +15422,7 @@
 		(dnp no)
 		(uuid "d8310af5-d179-42a1-ab42-8a1c9cb060d3")
 		(property "Reference" "J26"
-			(at 501.396 286.004 0)
+			(at 501.396 262.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15392,7 +15430,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08"
-			(at 501.65 288.036 0)
+			(at 501.65 260.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15400,7 +15438,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 501.65 275.59 0)
+			(at 501.65 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15409,7 +15447,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 501.65 275.59 0)
+			(at 501.65 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15418,7 +15456,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 501.65 275.59 0)
+			(at 501.65 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16487,7 +16525,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 74.93 250.19 180)
+		(at 74.93 247.65 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16495,7 +16534,7 @@
 		(dnp no)
 		(uuid "f6f73611-061f-4666-82e3-90f6cacb75fe")
 		(property "Reference" "J29"
-			(at 70.358 247.142 0)
+			(at 70.358 250.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16503,7 +16542,7 @@
 			)
 		)
 		(property "Value" "DC2"
-			(at 70.358 249.936 0)
+			(at 70.358 247.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16511,7 +16550,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 74.93 250.19 0)
+			(at 74.93 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16520,7 +16559,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 250.19 0)
+			(at 74.93 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16529,7 +16568,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 74.93 250.19 0)
+			(at 74.93 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)

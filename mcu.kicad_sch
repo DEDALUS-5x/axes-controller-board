@@ -4853,6 +4853,12 @@
 		(uuid "a265d6aa-4f8d-42eb-8662-bb6a22fbf1db")
 	)
 	(junction
+		(at 54.61 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b12efdf2-cf55-48e9-a5e9-f8f16380adda")
+	)
+	(junction
 		(at 54.61 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5615,6 +5621,16 @@
 			(type default)
 		)
 		(uuid "3bcbfc5f-b8c0-4ecd-94a6-12df63aee6f5")
+	)
+	(wire
+		(pts
+			(xy 261.62 133.35) (xy 274.32 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ca1b52e-b83a-4973-a18b-da84251e4969")
 	)
 	(wire
 		(pts
@@ -6455,6 +6471,16 @@
 			(type default)
 		)
 		(uuid "8520076e-fba7-4120-a69c-0171a7c10d50")
+	)
+	(wire
+		(pts
+			(xy 54.61 78.74) (xy 63.5 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87deaf8f-9b1f-44c6-aa92-f31538da5c54")
 	)
 	(wire
 		(pts
@@ -8189,6 +8215,16 @@
 		)
 		(uuid "56aaa9e5-3fa6-485c-9524-ceb4aa5e3175")
 	)
+	(label "VSS_6"
+		(at 63.5 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5976c5fe-aa1a-44d9-a550-192b92b3f638")
+	)
 	(label "VDD_6"
 		(at 254 214.63 90)
 		(effects
@@ -8398,6 +8434,16 @@
 			(justify right bottom)
 		)
 		(uuid "9b34e15c-9243-4a9e-8fe0-aa3327e521c2")
+	)
+	(label "VSS_6"
+		(at 274.32 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ce85a40-379d-496e-97fa-ce6b3673dc9a")
 	)
 	(label "VSSA"
 		(at 63.5 49.53 180)
