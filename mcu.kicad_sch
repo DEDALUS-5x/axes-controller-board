@@ -7841,6 +7841,17 @@
 		)
 		(uuid "52c90d9d-2fbf-415e-82f1-fd856db1ca74")
 	)
+	(text "DMA config:\n- SPI1: Raspberry communication\n- SPI2: DC motors rotative encoders (daisy chain)\n- SPI3: pitch and yaw rotative encoders (daisy chain)\n- SPI4: 3 current sensors (with CSs)\n- Encoders mode for linear encoders"
+		(exclude_from_sim no)
+		(at 285.242 90.678 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5504060c-665b-4d20-b531-294a43f00810")
+	)
 	(text "PB8-BOOT0 pin configuration:\nLOW: normal, boot from user flash\nHIGH: boot from system memory, bootloader"
 		(exclude_from_sim no)
 		(at 249.682 272.796 0)
