@@ -4331,10 +4331,22 @@
 		(uuid "08c59ba9-a5ce-4b31-bfcf-076b85c9728b")
 	)
 	(junction
+		(at 170.18 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b91fbbc-7489-4b96-8928-45e15d69d50f")
+	)
+	(junction
 		(at 328.93 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "118c18ce-d005-4ec0-a5fa-9ae402d88164")
+	)
+	(junction
+		(at 166.37 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15b338e4-9277-4641-9bf4-27175e418a90")
 	)
 	(junction
 		(at 511.81 283.21)
@@ -5093,6 +5105,16 @@
 			(type default)
 		)
 		(uuid "10b577ab-ec8c-49db-bee4-dff7fd49250d")
+	)
+	(wire
+		(pts
+			(xy 165.1 60.96) (xy 166.37 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11571181-db6d-4067-b302-e9ec7e97e486")
 	)
 	(wire
 		(pts
@@ -5893,6 +5915,16 @@
 			(type default)
 		)
 		(uuid "4268e917-d72c-4df3-881d-4d5608542978")
+	)
+	(wire
+		(pts
+			(xy 163.83 67.31) (xy 165.1 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4279726b-eece-4831-8a75-d75fcaa0cc25")
 	)
 	(wire
 		(pts
@@ -6916,6 +6948,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 64.77) (xy 165.1 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8810f3fc-9129-4144-94e7-73b04ff54a97")
+	)
+	(wire
+		(pts
 			(xy 242.57 328.93) (xy 242.57 228.6)
 		)
 		(stroke
@@ -7834,6 +7876,16 @@
 		)
 		(uuid "bd642c61-9ca5-4fcb-918d-58595eedebe9")
 	)
+	(wire
+		(pts
+			(xy 165.1 71.12) (xy 170.18 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdc6c31f-028a-4431-8d31-d88481a2a7cd")
+	)
 	(polyline
 		(pts
 			(xy 461.01 292.862) (xy 528.828 292.862)
@@ -7936,7 +7988,7 @@
 	)
 	(polyline
 		(pts
-			(xy 161.798 40.894) (xy 161.798 86.868)
+			(xy 150.622 40.894) (xy 150.622 86.868)
 		)
 		(stroke
 			(width 0)
@@ -8016,7 +8068,7 @@
 	)
 	(polyline
 		(pts
-			(xy 161.798 86.868) (xy 311.912 86.868)
+			(xy 150.622 86.868) (xy 311.912 86.868)
 		)
 		(stroke
 			(width 0)
@@ -8113,6 +8165,16 @@
 			(type default)
 		)
 		(uuid "d1fc868c-68ef-4a7b-b9ca-f9604c872cfd")
+	)
+	(wire
+		(pts
+			(xy 165.1 67.31) (xy 165.1 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2385f4f-af67-4526-bdd9-0f1ec59d1a24")
 	)
 	(wire
 		(pts
@@ -8263,6 +8325,16 @@
 			(type default)
 		)
 		(uuid "dee29f01-9ac5-4d4f-848b-2a95409f42e3")
+	)
+	(wire
+		(pts
+			(xy 163.83 64.77) (xy 165.1 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deebd883-159e-47c1-9927-aea3c83c3e75")
 	)
 	(wire
 		(pts
@@ -8656,7 +8728,7 @@
 	)
 	(polyline
 		(pts
-			(xy 161.798 40.894) (xy 311.912 40.894)
+			(xy 150.622 40.894) (xy 311.912 40.894)
 		)
 		(stroke
 			(width 0)
@@ -8797,7 +8869,7 @@
 	)
 	(text "SUPPLY 12V -> 5V"
 		(exclude_from_sim no)
-		(at 171.196 40.132 0)
+		(at 160.274 40.132 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8915,7 +8987,7 @@
 	)
 	(text "- 5V 5A output\n- L, D and polarized C as near as possible to pin PH and GND_2\n- Large traces, zones for better performances\n- ok traces in input, output just zones in order to avoid drops"
 		(exclude_from_sim no)
-		(at 162.56 46.228 0)
+		(at 151.384 45.974 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15673,6 +15745,74 @@
 			(project "axes-controller-board"
 				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98"
 					(reference "#PWR125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 158.75 64.77 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e027e3d6-e6d5-4fdd-8c41-206989da4095")
+		(property "Reference" "J33"
+			(at 154.178 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DC1"
+			(at 154.178 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 158.75 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 158.75 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80480f7a-4ad1-4cb4-9a79-4281a950b7d7")
+		)
+		(pin "2"
+			(uuid "0ddeef22-b083-4745-8d73-7e0c50b740c8")
+		)
+		(instances
+			(project "axes-controller-board"
+				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98"
+					(reference "J33")
 					(unit 1)
 				)
 			)
