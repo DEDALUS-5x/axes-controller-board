@@ -5064,6 +5064,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 71.12) (xy 241.3 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a659d80-5ece-4acb-9b09-eb1e16dd7213")
+	)
+	(wire
+		(pts
 			(xy 389.89 133.35) (xy 397.51 133.35)
 		)
 		(stroke
@@ -5104,7 +5114,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 204.47) (xy 218.44 208.28)
+			(xy 218.44 204.47) (xy 218.44 237.49)
 		)
 		(stroke
 			(width 0)
@@ -5204,7 +5214,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 171.45) (xy 266.7 171.45)
+			(xy 261.62 171.45) (xy 274.32 171.45)
 		)
 		(stroke
 			(width 0)
@@ -5324,7 +5334,17 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 204.47) (xy 223.52 208.28)
+			(xy 241.3 78.74) (xy 241.3 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22f69b2d-eed9-4950-8d78-bef6b1fe8b86")
+	)
+	(wire
+		(pts
+			(xy 223.52 204.47) (xy 223.52 215.9)
 		)
 		(stroke
 			(width 0)
@@ -5364,7 +5384,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 128.27) (xy 266.7 128.27)
+			(xy 261.62 128.27) (xy 276.86 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5391,6 +5411,16 @@
 			(type default)
 		)
 		(uuid "26b73d40-a0f0-4d87-bd42-6b125fc979ee")
+	)
+	(wire
+		(pts
+			(xy 172.72 77.47) (xy 172.72 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2750deb6-2342-4a6a-90cf-62206abf0f64")
 	)
 	(wire
 		(pts
@@ -5674,16 +5704,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 76.2) (xy 233.68 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "406ef053-b69e-4965-b3c7-61f6a4f78341")
-	)
-	(wire
-		(pts
 			(xy 248.92 76.2) (xy 248.92 80.01)
 		)
 		(stroke
@@ -5744,7 +5764,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 110.49) (xy 133.35 109.22)
+			(xy 127 110.49) (xy 127 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5844,7 +5864,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 110.49) (xy 133.35 110.49)
+			(xy 157.48 110.49) (xy 127 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5874,13 +5894,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 100.33) (xy 157.48 100.33)
+			(xy 238.76 78.74) (xy 238.76 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4e9533e7-2382-463c-bfa5-cc224fb55785")
+		(uuid "4fd588c2-36ff-4080-bba5-152bb03b968b")
 	)
 	(wire
 		(pts
@@ -6402,6 +6422,16 @@
 		)
 		(uuid "7c147ceb-6c7f-4d61-9dd8-5fdc8f36e502")
 	)
+	(wire
+		(pts
+			(xy 238.76 71.12) (xy 238.76 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ca7148b-e5f6-4d82-8853-3e9424226412")
+	)
 	(polyline
 		(pts
 			(xy 118.11 115.57) (xy 19.05 115.57)
@@ -6624,7 +6654,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 204.47) (xy 220.98 208.28)
+			(xy 220.98 204.47) (xy 220.98 237.49)
 		)
 		(stroke
 			(width 0)
@@ -6641,16 +6671,6 @@
 			(type default)
 		)
 		(uuid "91a1c19c-37d4-4067-a818-54a49ee114aa")
-	)
-	(wire
-		(pts
-			(xy 152.4 102.87) (xy 157.48 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "925f335f-6a1f-49ef-87b2-730f2b5e3d8a")
 	)
 	(wire
 		(pts
@@ -6794,6 +6814,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 72.39) (xy 231.14 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a026b58a-b334-4ca6-bd4a-e3755b0da7e2")
+	)
+	(wire
+		(pts
 			(xy 33.02 265.43) (xy 30.48 265.43)
 		)
 		(stroke
@@ -6801,6 +6831,16 @@
 			(type default)
 		)
 		(uuid "a04924e4-198e-4940-840a-d2e7a8498f99")
+	)
+	(wire
+		(pts
+			(xy 139.7 100.33) (xy 157.48 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1367fe8-5551-42f9-9c40-04388c6d31c1")
 	)
 	(polyline
 		(pts
@@ -7084,6 +7124,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 77.47) (xy 170.18 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbcd9c1b-f16b-4f38-b360-0e671b265239")
+	)
+	(wire
+		(pts
 			(xy 228.6 204.47) (xy 228.6 214.63)
 		)
 		(stroke
@@ -7091,16 +7141,6 @@
 			(type default)
 		)
 		(uuid "bcada7b5-acfc-46b9-8269-8ae86525411b")
-	)
-	(wire
-		(pts
-			(xy 172.72 74.93) (xy 172.72 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcfb169a-b352-49c2-8abc-a1d2546d1b00")
 	)
 	(wire
 		(pts
@@ -7114,7 +7154,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 204.47) (xy 238.76 208.28)
+			(xy 238.76 204.47) (xy 238.76 222.25)
 		)
 		(stroke
 			(width 0)
@@ -7161,16 +7201,6 @@
 			(type default)
 		)
 		(uuid "c17c8f2d-3f2f-4c20-a081-9fc31859efb8")
-	)
-	(wire
-		(pts
-			(xy 241.3 76.2) (xy 241.3 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1da498c-dfd9-40d4-8b78-f773e532cd78")
 	)
 	(polyline
 		(pts
@@ -7484,7 +7514,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 168.91) (xy 266.7 168.91)
+			(xy 261.62 168.91) (xy 274.32 168.91)
 		)
 		(stroke
 			(width 0)
@@ -7554,6 +7584,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 72.39) (xy 233.68 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0548b01-eb70-467f-a4a8-504623693cc2")
+	)
+	(wire
+		(pts
 			(xy 261.62 179.07) (xy 273.05 179.07)
 		)
 		(stroke
@@ -7564,17 +7604,17 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 76.2) (xy 231.14 80.01)
+			(xy 233.68 213.36) (xy 233.68 214.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1aa9486-7ab6-4765-98b2-6198df4eda31")
+		(uuid "e2859733-6517-435e-af20-f99c73b0398f")
 	)
 	(wire
 		(pts
-			(xy 241.3 204.47) (xy 241.3 208.28)
+			(xy 241.3 204.47) (xy 241.3 222.25)
 		)
 		(stroke
 			(width 0)
@@ -7621,16 +7661,6 @@
 			(type default)
 		)
 		(uuid "e7985dd4-2eff-4188-9c02-1ec54c107134")
-	)
-	(wire
-		(pts
-			(xy 238.76 76.2) (xy 238.76 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8276dc0-af47-41e4-afe2-99a62b17094c")
 	)
 	(wire
 		(pts
@@ -7684,16 +7714,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 74.93) (xy 170.18 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef19bc94-97b7-4d95-81a2-a2c0d51aa801")
-	)
-	(wire
-		(pts
 			(xy 77.47 49.53) (xy 77.47 48.26)
 		)
 		(stroke
@@ -7704,7 +7724,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 97.79) (xy 157.48 97.79)
+			(xy 153.67 97.79) (xy 157.48 97.79)
 		)
 		(stroke
 			(width 0)
@@ -7804,7 +7824,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 204.47) (xy 233.68 208.28)
+			(xy 233.68 204.47) (xy 233.68 205.74)
 		)
 		(stroke
 			(width 0)
@@ -7824,7 +7844,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 125.73) (xy 266.7 125.73)
+			(xy 261.62 125.73) (xy 276.86 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7851,6 +7871,16 @@
 			(type default)
 		)
 		(uuid "fea27a26-054b-4ec0-b689-d3cbe82d74cd")
+	)
+	(wire
+		(pts
+			(xy 139.7 102.87) (xy 157.48 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fee57c7d-5776-4932-b9f4-325b0bc11695")
 	)
 	(text "Decoupling"
 		(exclude_from_sim no)
@@ -8798,7 +8828,7 @@
 	)
 	(hierarchical_label "X_DC_PWM_1"
 		(shape output)
-		(at 223.52 208.28 270)
+		(at 223.52 223.52 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8809,7 +8839,7 @@
 	)
 	(hierarchical_label "STEP_P2"
 		(shape output)
-		(at 233.68 76.2 90)
+		(at 233.68 64.77 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8831,7 +8861,7 @@
 	)
 	(hierarchical_label "DIR_P2"
 		(shape output)
-		(at 231.14 76.2 90)
+		(at 231.14 64.77 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8842,7 +8872,7 @@
 	)
 	(hierarchical_label "DIR_P1"
 		(shape output)
-		(at 238.76 76.2 90)
+		(at 238.76 64.77 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8886,7 +8916,7 @@
 	)
 	(hierarchical_label "EN_STEPPERS"
 		(shape output)
-		(at 152.4 97.79 180)
+		(at 153.67 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8963,7 +8993,7 @@
 	)
 	(hierarchical_label "X_DC_PWM_2"
 		(shape output)
-		(at 233.68 208.28 270)
+		(at 233.68 214.63 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8996,7 +9026,7 @@
 	)
 	(hierarchical_label "Y1_DC_PWM_2"
 		(shape output)
-		(at 241.3 208.28 270)
+		(at 241.3 229.87 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9018,7 +9048,7 @@
 	)
 	(hierarchical_label "Y2_DC_PWM_1"
 		(shape output)
-		(at 266.7 128.27 0)
+		(at 284.48 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9029,7 +9059,7 @@
 	)
 	(hierarchical_label "DIR_F"
 		(shape output)
-		(at 218.44 208.28 270)
+		(at 218.44 245.11 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9062,7 +9092,7 @@
 	)
 	(hierarchical_label "STEP_Z1"
 		(shape output)
-		(at 172.72 74.93 90)
+		(at 172.72 69.85 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9095,7 +9125,7 @@
 	)
 	(hierarchical_label "STEP_Z2"
 		(shape output)
-		(at 152.4 100.33 180)
+		(at 132.08 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9117,7 +9147,7 @@
 	)
 	(hierarchical_label "DIR_Z2"
 		(shape output)
-		(at 152.4 102.87 180)
+		(at 132.08 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9128,7 +9158,7 @@
 	)
 	(hierarchical_label "STEP_F"
 		(shape output)
-		(at 220.98 208.28 270)
+		(at 220.98 245.11 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9139,7 +9169,7 @@
 	)
 	(hierarchical_label "DIR_Z1"
 		(shape output)
-		(at 170.18 74.93 90)
+		(at 170.18 69.85 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9150,7 +9180,7 @@
 	)
 	(hierarchical_label "Y2_DC_PWM_2"
 		(shape output)
-		(at 266.7 125.73 0)
+		(at 284.48 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9194,7 +9224,7 @@
 	)
 	(hierarchical_label "Y1_DC_PWM_1"
 		(shape output)
-		(at 238.76 208.28 270)
+		(at 238.76 229.87 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9227,7 +9257,7 @@
 	)
 	(hierarchical_label "STEP_Y"
 		(shape output)
-		(at 266.7 168.91 0)
+		(at 281.94 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9260,7 +9290,7 @@
 	)
 	(hierarchical_label "DIR_Y"
 		(shape output)
-		(at 266.7 171.45 0)
+		(at 281.94 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9271,7 +9301,7 @@
 	)
 	(hierarchical_label "STEP_P1"
 		(shape output)
-		(at 241.3 76.2 90)
+		(at 241.3 64.77 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9647,6 +9677,73 @@
 			(project "axes-controller-board"
 				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98/37bdac2b-aaa0-48b9-94b0-0180a23198dc"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 231.14 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f49c649-f666-4b3c-8015-5019126d46e4")
+		(property "Reference" "R24"
+			(at 228.854 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 231.14 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 229.362 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd9d8a01-72f2-461f-ace6-402ab253f145")
+		)
+		(pin "2"
+			(uuid "f5be136e-c2e1-471b-a28c-4328c61d52f6")
+		)
+		(instances
+			(project "axes-controller-board"
+				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98/37bdac2b-aaa0-48b9-94b0-0180a23198dc"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -10308,6 +10405,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 233.68 209.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e1d2514-45e2-4734-8d62-6b574e5b632d")
+		(property "Reference" "R31"
+			(at 231.14 209.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 233.68 209.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 235.458 209.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e5f5df4-ef52-4c2f-8b63-cde25857dd67")
+		)
+		(pin "2"
+			(uuid "e69b60a7-a13f-4c45-bf62-83912934492c")
+		)
+		(instances
+			(project "axes-controller-board"
+				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98/37bdac2b-aaa0-48b9-94b0-0180a23198dc"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 73.66 38.1 0)
 		(unit 1)
@@ -10367,6 +10531,73 @@
 			(project "axes-controller-board"
 				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98/37bdac2b-aaa0-48b9-94b0-0180a23198dc"
 					(reference "#PWR42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 238.76 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28e2bf6c-e8f9-46eb-92ab-171c05ab8c0d")
+		(property "Reference" "R25"
+			(at 236.474 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 238.76 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 236.982 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b49c2d3-d374-46b1-9fdd-0095bcaa6dfe")
+		)
+		(pin "2"
+			(uuid "7d2af05e-b480-42df-ad1a-ee67eda8ff84")
+		)
+		(instances
+			(project "axes-controller-board"
+				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98/37bdac2b-aaa0-48b9-94b0-0180a23198dc"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -10808,6 +11039,73 @@
 			(project "axes-controller-board"
 				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98/37bdac2b-aaa0-48b9-94b0-0180a23198dc"
 					(reference "#PWR30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 241.3 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34054813-233e-4558-af62-aa98ccf1d1b1")
+		(property "Reference" "R26"
+			(at 243.586 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 241.3 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 243.078 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c6a6eda-8828-4f6b-94c4-b8963c2e8ecd")
+		)
+		(pin "2"
+			(uuid "56af42c4-72b4-473d-a339-0e7c717b5415")
+		)
+		(instances
+			(project "axes-controller-board"
+				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98/37bdac2b-aaa0-48b9-94b0-0180a23198dc"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -11475,6 +11773,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 172.72 73.66 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51fed1b4-ac3c-4c70-8439-2c6d4690edf8")
+		(property "Reference" "R21"
+			(at 175.006 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 172.72 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 174.498 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10708e73-4148-46ac-8764-acbd07cdbc53")
+		)
+		(pin "2"
+			(uuid "264f299e-d357-4663-bfdf-a02362ec464f")
+		)
+		(instances
+			(project "axes-controller-board"
+				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98/37bdac2b-aaa0-48b9-94b0-0180a23198dc"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 41.91 139.7 0)
 		(unit 1)
@@ -11788,6 +12153,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 135.89 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6511737e-d1b9-42df-8007-512e2c95ccf2")
+		(property "Reference" "R20"
+			(at 135.89 105.156 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 135.89 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 135.89 104.648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42f523bb-c942-4857-b954-b7db9cd6102e")
+		)
+		(pin "2"
+			(uuid "4b7bcb2c-e9fa-41a3-9cb4-673c95ac1976")
+		)
+		(instances
+			(project "axes-controller-board"
+				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98/37bdac2b-aaa0-48b9-94b0-0180a23198dc"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 43.18 207.01 0)
@@ -11849,6 +12281,73 @@
 			(project "axes-controller-board"
 				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98/37bdac2b-aaa0-48b9-94b0-0180a23198dc"
 					(reference "#PWR7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67e1cd65-cab7-4770-8dc3-76f3460efe2a")
+		(property "Reference" "R19"
+			(at 135.89 98.044 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 135.89 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 135.89 98.552 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac608b31-47a6-443a-9896-679ccc15fe0f")
+		)
+		(pin "2"
+			(uuid "672b8df1-8df0-4b2f-a716-e3e5b08c21a6")
+		)
+		(instances
+			(project "axes-controller-board"
+				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98/37bdac2b-aaa0-48b9-94b0-0180a23198dc"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -11970,6 +12469,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 278.13 171.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f85d7be-d1c4-4590-81f9-ca2dc34f4867")
+		(property "Reference" "R5"
+			(at 278.13 173.736 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 278.13 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 278.13 173.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.13 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 278.13 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb242ec9-9e12-45ba-a533-96a6c2db5abf")
+		)
+		(pin "2"
+			(uuid "e67b221a-be61-4251-b6dc-fb86780ea772")
+		)
+		(instances
+			(project "axes-controller-board"
+				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98/37bdac2b-aaa0-48b9-94b0-0180a23198dc"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 43.18 203.2 0)
 		(unit 1)
@@ -12085,6 +12651,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 280.67 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76cafd12-154b-4b4e-b8f0-8115ed799599")
+		(property "Reference" "R27"
+			(at 280.67 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 280.67 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 280.67 127.508 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 280.67 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e2fb434-e4ea-4250-87af-9be72cbc8378")
+		)
+		(pin "2"
+			(uuid "720bedcb-ce15-4b0e-b0c1-63b525673213")
+		)
+		(instances
+			(project "axes-controller-board"
+				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98/37bdac2b-aaa0-48b9-94b0-0180a23198dc"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 22.86 146.05 0)
@@ -12145,6 +12778,73 @@
 			(project "axes-controller-board"
 				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98/37bdac2b-aaa0-48b9-94b0-0180a23198dc"
 					(reference "#PWR57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 223.52 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ac423de-c491-48e0-9c70-33f3c795e711")
+		(property "Reference" "R32"
+			(at 226.06 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 223.52 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 221.742 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a360a53-14eb-4f11-9c9d-2817ce80dc5a")
+		)
+		(pin "2"
+			(uuid "5a3120ff-a4a7-4f0e-b4c1-68c52b72750e")
+		)
+		(instances
+			(project "axes-controller-board"
+				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98/37bdac2b-aaa0-48b9-94b0-0180a23198dc"
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -13797,6 +14497,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 220.98 241.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4b592f8-9d8a-4139-b270-5c82c6297339")
+		(property "Reference" "R7"
+			(at 223.266 241.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 220.98 241.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 222.758 241.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd818fce-1227-4a76-9548-8811321301af")
+		)
+		(pin "2"
+			(uuid "86afc697-7315-4d77-b575-0521c07c720c")
+		)
+		(instances
+			(project "axes-controller-board"
+				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98/37bdac2b-aaa0-48b9-94b0-0180a23198dc"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 99.06 132.08 0)
 		(unit 1)
@@ -13972,6 +14739,73 @@
 			(project "axes-controller-board"
 				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98/37bdac2b-aaa0-48b9-94b0-0180a23198dc"
 					(reference "#PWR126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 278.13 168.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa506494-bd50-4f2f-8761-f28740a7d7da")
+		(property "Reference" "R4"
+			(at 278.13 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 278.13 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 278.13 170.688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.13 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 278.13 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e876bd6f-8879-4e19-8359-8972ad11016c")
+		)
+		(pin "2"
+			(uuid "14aa70d3-e3ec-4ee7-8ec3-44d5f1a5dc90")
+		)
+		(instances
+			(project "axes-controller-board"
+				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98/37bdac2b-aaa0-48b9-94b0-0180a23198dc"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -14355,6 +15189,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 238.76 226.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b62db5a5-f087-42c9-8181-0d9e1fe4a609")
+		(property "Reference" "R29"
+			(at 236.22 226.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 238.76 226.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 240.538 226.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6937cbb4-8ac1-48ea-adc3-f06327175308")
+		)
+		(pin "2"
+			(uuid "5b805514-b729-4835-9f76-d84a1447f7c4")
+		)
+		(instances
+			(project "axes-controller-board"
+				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98/37bdac2b-aaa0-48b9-94b0-0180a23198dc"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 97.79 93.98 0)
 		(unit 1)
@@ -14529,6 +15430,73 @@
 			(project "axes-controller-board"
 				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98/37bdac2b-aaa0-48b9-94b0-0180a23198dc"
 					(reference "C58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 233.68 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0001bfd-44c5-469a-880b-34332363b103")
+		(property "Reference" "R23"
+			(at 235.966 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 233.68 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 235.458 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5873034-6c12-4e4d-af22-5e585249d5bf")
+		)
+		(pin "2"
+			(uuid "ffde6fad-5e08-4bdc-b51c-bc6a46036855")
+		)
+		(instances
+			(project "axes-controller-board"
+				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98/37bdac2b-aaa0-48b9-94b0-0180a23198dc"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -14825,6 +15793,73 @@
 			(project "axes-controller-board"
 				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98/37bdac2b-aaa0-48b9-94b0-0180a23198dc"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 218.44 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9ba024a-00d1-4f6c-ad04-5aa3a849f487")
+		(property "Reference" "R6"
+			(at 216.154 241.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 218.694 241.554 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 216.662 241.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfe00d50-52dc-4d2c-bd31-66316a5cbc47")
+		)
+		(pin "2"
+			(uuid "3d5f85a2-94fb-409b-984e-c8979d685c60")
+		)
+		(instances
+			(project "axes-controller-board"
+				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98/37bdac2b-aaa0-48b9-94b0-0180a23198dc"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -15842,7 +16877,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 133.35 109.22 0)
+		(at 127 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15850,7 +16885,7 @@
 		(dnp no)
 		(uuid "e09f4c55-c5b7-41d1-bfe4-5556e9b1638d")
 		(property "Reference" "#PWR128"
-			(at 133.35 113.03 0)
+			(at 127 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15859,7 +16894,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 133.35 105.41 0)
+			(at 127 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15867,7 +16902,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 109.22 0)
+			(at 127 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15876,7 +16911,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 109.22 0)
+			(at 127 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15885,7 +16920,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 109.22 0)
+			(at 127 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15965,6 +17000,73 @@
 			(project "axes-controller-board"
 				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98/37bdac2b-aaa0-48b9-94b0-0180a23198dc"
 					(reference "#PWR50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 241.3 226.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5fe178d-e390-44fb-85f5-8ad67f27ed85")
+		(property "Reference" "R30"
+			(at 243.586 226.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 241.3 226.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 243.078 226.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "454fcdf9-9e1d-45ea-8e96-70f887aabdfd")
+		)
+		(pin "2"
+			(uuid "38a08e2d-2962-4641-9c04-44956f212df7")
+		)
+		(instances
+			(project "axes-controller-board"
+				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98/37bdac2b-aaa0-48b9-94b0-0180a23198dc"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -16333,6 +17435,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 280.67 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f05a3967-1018-4b1d-a40d-709f36b4df9e")
+		(property "Reference" "R28"
+			(at 280.67 130.556 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 280.67 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 280.67 130.048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 280.67 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be312e54-420a-4926-8410-f8fecba0be82")
+		)
+		(pin "2"
+			(uuid "4840bc9c-0276-43a9-8c1d-28bd222943df")
+		)
+		(instances
+			(project "axes-controller-board"
+				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98/37bdac2b-aaa0-48b9-94b0-0180a23198dc"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 397.51 148.59 0)
 		(mirror y)
@@ -16655,6 +17824,73 @@
 			(project "axes-controller-board"
 				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98/37bdac2b-aaa0-48b9-94b0-0180a23198dc"
 					(reference "#PWR44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 170.18 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff48517d-ba90-4f09-b48c-5c666a0ad086")
+		(property "Reference" "R22"
+			(at 167.894 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 170.18 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 168.402 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9bb4b3d-d59a-47bc-b836-26f39206d553")
+		)
+		(pin "2"
+			(uuid "8bf39d9e-b2fe-403c-9e79-8d12f725e435")
+		)
+		(instances
+			(project "axes-controller-board"
+				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98/37bdac2b-aaa0-48b9-94b0-0180a23198dc"
+					(reference "R22")
 					(unit 1)
 				)
 			)
