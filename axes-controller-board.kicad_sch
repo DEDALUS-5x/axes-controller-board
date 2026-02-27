@@ -10082,7 +10082,7 @@
 		)
 		(uuid "88a14ebf-5a1e-478b-8681-2a96201fbbb7")
 	)
-	(label "DIR_P2"
+	(label "DIR_P1"
 		(at 350.52 208.28 180)
 		(effects
 			(font
@@ -10092,7 +10092,7 @@
 		)
 		(uuid "9262cee3-e88e-47db-a4e5-5a396d7dadeb")
 	)
-	(label "DIR_P2"
+	(label "DIR_P1"
 		(at 469.9 175.26 0)
 		(effects
 			(font
