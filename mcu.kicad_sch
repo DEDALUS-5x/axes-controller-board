@@ -5734,6 +5734,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 146.05) (xy 266.7 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4582af05-6778-4f52-b127-e8c7e00a43ee")
+	)
+	(wire
+		(pts
 			(xy 187.96 262.89) (xy 187.96 265.43)
 		)
 		(stroke
@@ -6311,6 +6321,16 @@
 			(type default)
 		)
 		(uuid "72258165-0c91-466c-8815-264d863bc7af")
+	)
+	(wire
+		(pts
+			(xy 261.62 148.59) (xy 266.7 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73c4b76b-c205-425a-93a2-2ffd8ed5a457")
 	)
 	(polyline
 		(pts
@@ -8837,6 +8857,17 @@
 		)
 		(uuid "041fa00f-c621-41df-a31e-902fe9b9a6d9")
 	)
+	(hierarchical_label "ES_Z1"
+		(shape input)
+		(at 266.7 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0676314f-2b18-439e-ab51-c8d4e960e46a")
+	)
 	(hierarchical_label "STEP_P2"
 		(shape output)
 		(at 233.68 64.77 90)
@@ -8990,6 +9021,17 @@
 			(justify left)
 		)
 		(uuid "4eb8efd5-819d-4586-a570-169bcd740f70")
+	)
+	(hierarchical_label "ES_Z2"
+		(shape input)
+		(at 266.7 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4ed54ff2-3a4d-449e-86fd-f04077fec126")
 	)
 	(hierarchical_label "X_DC_PWM_2"
 		(shape output)
