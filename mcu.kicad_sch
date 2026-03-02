@@ -4954,6 +4954,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 186.69) (xy 157.48 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01a4985b-e00d-43a1-9bdc-df8bbe811f61")
+	)
+	(wire
+		(pts
 			(xy 152.4 115.57) (xy 157.48 115.57)
 		)
 		(stroke
@@ -5301,6 +5311,16 @@
 			(type default)
 		)
 		(uuid "1ee5e75c-ed84-4014-8fd2-ed1e3fd235a9")
+	)
+	(wire
+		(pts
+			(xy 275.59 153.67) (xy 261.62 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ee81b8c-b952-4d25-89e9-ee462010b777")
 	)
 	(wire
 		(pts
@@ -5704,6 +5724,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 156.21) (xy 261.62 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40953628-4de1-48ba-b4c5-fa3764bfa3b6")
+	)
+	(wire
+		(pts
 			(xy 248.92 76.2) (xy 248.92 80.01)
 		)
 		(stroke
@@ -6041,6 +6071,16 @@
 			(type default)
 		)
 		(uuid "594ae607-7793-4d76-8a3b-045fc6da0094")
+	)
+	(wire
+		(pts
+			(xy 165.1 204.47) (xy 165.1 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a297bff-5aa2-41ee-93e4-be09977dc495")
 	)
 	(wire
 		(pts
@@ -8890,6 +8930,17 @@
 		)
 		(uuid "0cfb9ca9-aea8-4310-b277-9a766c7b0d24")
 	)
+	(hierarchical_label "N_NTC"
+		(shape input)
+		(at 151.13 186.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13663bde-603a-4199-9aeb-12afefa1f5df")
+	)
 	(hierarchical_label "DIR_P2"
 		(shape output)
 		(at 231.14 64.77 90)
@@ -9033,6 +9084,17 @@
 		)
 		(uuid "4ed54ff2-3a4d-449e-86fd-f04077fec126")
 	)
+	(hierarchical_label "N_PWM"
+		(shape output)
+		(at 283.21 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "548c551b-fdf5-4710-9a3a-57b6b0e52839")
+	)
 	(hierarchical_label "X_DC_PWM_2"
 		(shape output)
 		(at 233.68 214.63 270)
@@ -9065,6 +9127,17 @@
 			(justify right)
 		)
 		(uuid "5d2cb1d6-b828-4fa3-a5f2-a91bb0b75619")
+	)
+	(hierarchical_label "H_PWM"
+		(shape output)
+		(at 283.21 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5d638979-51a9-4d5b-b5b9-693dadfdcc2c")
 	)
 	(hierarchical_label "Y1_DC_PWM_2"
 		(shape output)
@@ -9241,6 +9314,17 @@
 			(justify right)
 		)
 		(uuid "b996663e-1038-4dc8-96f2-71ddff18e6ce")
+	)
+	(hierarchical_label "H_NTC"
+		(shape input)
+		(at 165.1 215.9 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4475247-43cb-49f9-850d-80b4e3ebdd10")
 	)
 	(hierarchical_label "MY1_A"
 		(shape input)
@@ -14788,6 +14872,73 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 279.4 153.67 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa41017b-9ac6-486a-b1da-118670a8e65b")
+		(property "Reference" "R43"
+			(at 274.574 152.654 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 279.4 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 279.4 151.892 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 279.4 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f2977c7-160a-4ca8-88b1-0f80672aa213")
+		)
+		(pin "2"
+			(uuid "77b22233-4b0e-4b78-9898-f389ee8d7e50")
+		)
+		(instances
+			(project "axes-controller-board"
+				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98/37bdac2b-aaa0-48b9-94b0-0180a23198dc"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 278.13 168.91 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15357,6 +15508,73 @@
 			(project "axes-controller-board"
 				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98/37bdac2b-aaa0-48b9-94b0-0180a23198dc"
 					(reference "#PWR18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 279.4 156.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba0c53f7-f60d-4742-aa01-91107f252c66")
+		(property "Reference" "R44"
+			(at 274.828 155.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 279.4 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 279.4 154.432 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 279.4 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f38794c-c85f-49dc-aaa5-f90c451617bc")
+		)
+		(pin "2"
+			(uuid "55ceceb9-e8d4-43fc-b068-398539e15ebd")
+		)
+		(instances
+			(project "axes-controller-board"
+				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98/37bdac2b-aaa0-48b9-94b0-0180a23198dc"
+					(reference "R44")
 					(unit 1)
 				)
 			)
