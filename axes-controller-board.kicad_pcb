@@ -52361,6 +52361,18 @@
 		(layer "Edge.Cuts")
 		(uuid "f5bd3c75-0269-4c5e-ae6c-8eb6947bf88f")
 	)
+	(gr_text "The spice must flow"
+		(at 122.8 63.8 0)
+		(layer "F.SilkS")
+		(uuid "6ebbc741-2702-4928-878c-923a81708732")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "+5V"
 		(at 99.08 74.21 0)
 		(layer "F.SilkS")
@@ -52396,6 +52408,19 @@
 				(bold yes)
 			)
 			(justify bottom)
+		)
+	)
+	(gr_text "{dblquote}Because you didn't come here to make the choiche,\nyou've already made it.\nYou're here to try to understand why you made it{dblquote}"
+		(at 163.2 88.3 0)
+		(layer "F.SilkS")
+		(uuid "f51d5848-9236-429c-a5e3-bba30dbb348b")
+		(effects
+			(font
+				(size 1.1 1.1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 	)
 	(dimension
