@@ -8041,7 +8041,7 @@
 	)
 	(polyline
 		(pts
-			(xy 341.122 66.548) (xy 341.122 20.574)
+			(xy 340.868 76.454) (xy 340.868 20.574)
 		)
 		(stroke
 			(width 0)
@@ -9291,7 +9291,7 @@
 	)
 	(polyline
 		(pts
-			(xy 179.832 20.574) (xy 179.832 66.548)
+			(xy 179.832 20.574) (xy 179.832 76.454)
 		)
 		(stroke
 			(width 0)
@@ -9391,7 +9391,7 @@
 	)
 	(polyline
 		(pts
-			(xy 179.832 66.548) (xy 341.122 66.548)
+			(xy 179.832 76.454) (xy 340.868 76.454)
 		)
 		(stroke
 			(width 0)
@@ -10221,7 +10221,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 72.39) (xy 200.66 72.39)
+			(xy 196.85 68.58) (xy 205.74 68.58)
 		)
 		(stroke
 			(width 0)
@@ -10777,7 +10777,7 @@
 		(uuid "4a96771d-4cae-4c5e-a13b-d8db17a54219")
 	)
 	(label "GNDM"
-		(at 200.66 72.39 180)
+		(at 205.74 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17440,16 +17440,15 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 189.23 72.39 90)
+		(at 194.31 68.58 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a5e0086b-7f89-4dc8-be17-b64fc8fdf4f7")
 		(property "Reference" "H2"
-			(at 187.96 66.04 90)
+			(at 194.056 71.882 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17457,7 +17456,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 187.96 68.58 90)
+			(at 204.216 71.628 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17465,7 +17464,7 @@
 			)
 		)
 		(property "Footprint" "Local:TestPoint_GNDedge"
-			(at 189.23 72.39 0)
+			(at 194.31 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17474,7 +17473,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 72.39 0)
+			(at 194.31 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17483,7 +17482,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 189.23 72.39 0)
+			(at 194.31 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
