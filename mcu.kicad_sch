@@ -14335,6 +14335,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C177343"
+			(at 382.27 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4443ee10-b281-49b2-8a07-520821926ba7")
 		)
@@ -15949,6 +15958,15 @@
 			)
 		)
 		(property "BOM Name" ""
+			(at 397.51 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C177343"
 			(at 397.51 137.16 0)
 			(effects
 				(font
