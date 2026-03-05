@@ -5439,6 +5439,16 @@
 		)
 		(uuid "073745ab-6df0-48ea-a0fc-33da6d8f03c2")
 	)
+	(polyline
+		(pts
+			(xy 542.036 49.53) (xy 542.036 267.208)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0871eacb-d723-4950-97f3-27d32c98cc01")
+	)
 	(wire
 		(pts
 			(xy 139.7 260.35) (xy 144.78 260.35)
@@ -8719,6 +8729,16 @@
 		)
 		(uuid "a89ea5a0-0778-4540-bfe8-35433e506804")
 	)
+	(polyline
+		(pts
+			(xy 542.036 49.53) (xy 575.31 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a909dc78-07db-4561-96d0-bd2c1711866b")
+	)
 	(wire
 		(pts
 			(xy 412.75 44.45) (xy 412.75 45.72)
@@ -8768,6 +8788,16 @@
 			(type default)
 		)
 		(uuid "abf81bac-dc76-459e-a700-783f32c195b5")
+	)
+	(polyline
+		(pts
+			(xy 542.036 267.208) (xy 575.31 267.208)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac14df0e-87f3-47ba-9b0d-af7671186ea9")
 	)
 	(wire
 		(pts
@@ -9759,6 +9789,16 @@
 		)
 		(uuid "dcd20f87-ff14-4eb9-a1f8-1871a6291a5e")
 	)
+	(polyline
+		(pts
+			(xy 575.31 267.208) (xy 575.31 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd21fcbb-dd4a-4c61-b37a-75946d8d4dd8")
+	)
 	(wire
 		(pts
 			(xy 45.72 208.28) (xy 54.61 208.28)
@@ -10478,6 +10518,18 @@
 			(type default)
 		)
 		(uuid "ff2c1df0-5d09-41c7-95ea-3fa4474c8766")
+	)
+	(text "Stepper motors Connectors"
+		(exclude_from_sim no)
+		(at 554.736 48.768 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "1010779b-20c6-40cf-8651-8c119d371acd")
 	)
 	(text "Just for current reading"
 		(exclude_from_sim no)
@@ -11566,6 +11618,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 554.99 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "0b98ad27-5300-4ae3-b0a4-e4e0a52c93f5")
+		(property "Reference" "J45"
+			(at 557.53 213.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 557.53 215.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 554.99 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 554.99 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 554.99 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cadf1ec4-e74c-494b-82dc-3ddb29829312")
+		)
+		(pin "4"
+			(uuid "9ed801b9-83e9-49aa-b1d1-6007d0f635a5")
+		)
+		(pin "3"
+			(uuid "791fad6c-acce-4156-bb89-266afdd889f9")
+		)
+		(pin "2"
+			(uuid "9ee5aee6-cb8c-428e-b4dd-0dc3e9ab3af2")
+		)
+		(instances
+			(project "axes-controller-board"
+				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98"
+					(reference "J45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 60.96 157.48 0)
 		(unit 1)
@@ -11926,6 +12054,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 554.99 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "139bd5c3-f813-4792-b798-b12d51372cb7")
+		(property "Reference" "J8"
+			(at 557.53 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 557.53 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 554.99 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 554.99 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 554.99 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d327060-b4e3-40d0-bcbe-cfdee673af41")
+		)
+		(pin "4"
+			(uuid "6d79451a-1c4e-48e2-b61e-b05abbb3e6ed")
+		)
+		(pin "3"
+			(uuid "a218d24a-945b-41a1-ae5f-05c090a9aa4e")
+		)
+		(pin "2"
+			(uuid "647eb808-1f2e-4145-a60e-6deb20a660be")
+		)
+		(instances
+			(project "axes-controller-board"
+				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 293.37 283.21 0)
 		(unit 1)
@@ -12064,6 +12268,82 @@
 			(project "axes-controller-board"
 				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98"
 					(reference "#PWR17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 554.99 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "1a599b7a-f207-45d8-a808-2581553a093b")
+		(property "Reference" "J44"
+			(at 557.53 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 557.53 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 554.99 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 554.99 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 554.99 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c6ba74d-b4e2-43d9-811f-2f6b4e90d444")
+		)
+		(pin "4"
+			(uuid "b2ed6f99-c7d4-461b-9a8e-8738f1787d10")
+		)
+		(pin "3"
+			(uuid "25162e5c-cd8d-45fe-9f5e-898878e4c994")
+		)
+		(pin "2"
+			(uuid "00c1c065-7199-4b81-8ddb-6c63d39f3e18")
+		)
+		(instances
+			(project "axes-controller-board"
+				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98"
+					(reference "J44")
 					(unit 1)
 				)
 			)
@@ -15318,6 +15598,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 554.99 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "60e5cf32-c592-493d-94e8-a5cb47e48444")
+		(property "Reference" "J7"
+			(at 557.53 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 557.53 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 554.99 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 554.99 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 554.99 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af6e4e3c-4943-4442-957d-9f257f974818")
+		)
+		(pin "4"
+			(uuid "9b9c55ea-ffcd-4881-8ee3-bf11e90913fc")
+		)
+		(pin "3"
+			(uuid "99051e55-6d77-4584-a5c9-361b0c724370")
+		)
+		(pin "2"
+			(uuid "ed7d1771-e30f-4ac9-8da5-3a408b4a9ef6")
+		)
+		(instances
+			(project "axes-controller-board"
+				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 422.91 34.29 0)
 		(unit 1)
@@ -17574,6 +17930,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 554.99 247.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "9e0284f3-d42f-4141-bde7-29eb0499d94d")
+		(property "Reference" "J46"
+			(at 557.53 247.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 557.53 250.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 554.99 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 554.99 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 554.99 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c29d2030-6fd8-4a63-b56b-9f9dfecae39e")
+		)
+		(pin "4"
+			(uuid "8274822b-9f6c-4dae-ad09-1a3defd89ffe")
+		)
+		(pin "3"
+			(uuid "b1cea1d8-2bd4-4c01-acc0-69ad804edbb6")
+		)
+		(pin "2"
+			(uuid "04680ece-a40f-46f2-9f61-681538708fa3")
+		)
+		(instances
+			(project "axes-controller-board"
+				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98"
+					(reference "J46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 194.31 68.58 90)
 		(unit 1)
@@ -17869,6 +18301,82 @@
 			(project "axes-controller-board"
 				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 554.99 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "af8ca881-3b75-4592-a17d-23d73c4d3e11")
+		(property "Reference" "J6"
+			(at 557.53 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 557.53 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 554.99 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 554.99 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 554.99 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52e3f9fb-8104-48b6-87a8-238bc2a03047")
+		)
+		(pin "4"
+			(uuid "8a604b86-6e3a-4da3-af62-c9f07899360e")
+		)
+		(pin "3"
+			(uuid "f80f2128-03fc-4d82-9162-1f3a210e219a")
+		)
+		(pin "2"
+			(uuid "741f73f3-a04a-47a4-aff0-fb4b57ced22b")
+		)
+		(instances
+			(project ""
+				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98"
+					(reference "J6")
 					(unit 1)
 				)
 			)
