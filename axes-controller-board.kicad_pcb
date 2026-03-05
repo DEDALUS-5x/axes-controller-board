@@ -6752,7 +6752,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "29ce56bc-c750-4f42-9eb6-a095221d5ef6")
@@ -18102,7 +18102,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "ecd5baca-6771-4595-9391-d4e08ac4b5de")
@@ -21176,7 +21176,7 @@
 		(path "/c097ae7b-8719-410e-a8dd-87fc27181b2b/8990ec25-9073-4c97-8e65-2d1090c6bd7e")
 		(sheetname "Sensors")
 		(sheetfile "sensors.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 3.4 5.15)
 			(end -3.4 5.15)
@@ -36424,7 +36424,7 @@
 		(path "/c097ae7b-8719-410e-a8dd-87fc27181b2b/dd4c7da6-fed3-4555-8c15-3e1a473dba3b")
 		(sheetname "Sensors")
 		(sheetfile "sensors.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 3.4 5.15)
 			(end -3.4 5.15)
@@ -37998,7 +37998,7 @@
 		(path "/c097ae7b-8719-410e-a8dd-87fc27181b2b/700219c0-a6e1-446d-9c4c-2aaa2c2570ce")
 		(sheetname "Sensors")
 		(sheetfile "sensors.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 3.4 5.15)
 			(end -3.4 5.15)
@@ -38957,7 +38957,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "d60cc58b-f52a-4c9b-917a-7d887ea7f764")
@@ -84568,18 +84568,14 @@
 	)
 	(group ""
 		(uuid "54fb5c3f-084d-4789-a38f-a6bc5114a916")
-		(members "0a586a37-829a-4523-a798-a5ba124a1753" "0e72b6d6-7516-4ef1-a53c-095a783ec3d8"
-			"156b1278-e5f2-4071-99a2-a8571a83723f" "1a29a4ef-2908-4f52-bb77-a701e7af2448"
-			"276a400b-8a8f-4685-a373-b4b209a40692" "283849a4-639c-4e3b-85ad-82a7f6ee1d40"
-			"2999a654-a99b-4997-8881-46b50ff20781" "2a1b027a-e041-4445-88be-247ff3a225b5"
-			"362106d3-8a32-445e-b37c-e062c99838e9" "3ae17437-ab82-4591-89c3-4815af668399"
-			"4121aa92-2083-428c-bfc6-395a770c91a7" "56968b7a-29f3-4399-b787-32f74bf6ad2b"
+		(members "0e6ec3b9-f3ce-4acd-b031-f146ff112162" "0e72b6d6-7516-4ef1-a53c-095a783ec3d8"
+			"283849a4-639c-4e3b-85ad-82a7f6ee1d40" "2921654e-5ed7-4126-bbec-c96390d9dc4b"
+			"362106d3-8a32-445e-b37c-e062c99838e9" "4121aa92-2083-428c-bfc6-395a770c91a7"
 			"5f0dcedb-77c6-413e-bb5f-1109becd5e6f" "624bc0fe-68c9-4bfb-802b-c62ae716d04e"
-			"65e3e251-cf0d-45a1-806c-9fbc11bf048e" "660f2421-3b20-45f4-80c5-3def40659160"
-			"6b2fe7c0-409c-4836-ae6b-94e5f2d4e382" "71e00edf-6263-49a2-a25e-c9d993a6ddb5"
-			"793a0102-7741-4027-b3ca-1845d12fd80a" "8e7a49b3-50d7-4fec-95a1-0f66db481fc8"
-			"cb587acc-665d-44cf-977c-a5d621aca255" "ccf2fb94-7256-4c7e-9ddd-0ed0ce898233"
-			"d002f818-55ab-4600-bd71-2cb3dc725f11" "e590b75c-b85e-4b96-b424-21d7b8d37ee4"
+			"6b2fe7c0-409c-4836-ae6b-94e5f2d4e382" "793a0102-7741-4027-b3ca-1845d12fd80a"
+			"8acdcc0f-7f0e-4d07-809d-e717cfd63c0b" "8e7a49b3-50d7-4fec-95a1-0f66db481fc8"
+			"ca88f92a-1fc0-4e3f-afad-34928e925eb3" "cb587acc-665d-44cf-977c-a5d621aca255"
+			"ccf2fb94-7256-4c7e-9ddd-0ed0ce898233" "d002f818-55ab-4600-bd71-2cb3dc725f11"
 			"fd729499-432e-4795-8054-de997026a18c"
 		)
 	)
