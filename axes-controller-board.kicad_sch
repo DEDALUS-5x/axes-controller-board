@@ -5311,7 +5311,7 @@
 	)
 	(polyline
 		(pts
-			(xy 469.9 374.65) (xy 469.9 406.908)
+			(xy 469.9 364.49) (xy 469.9 406.908)
 		)
 		(stroke
 			(width 0)
@@ -6881,7 +6881,7 @@
 	)
 	(polyline
 		(pts
-			(xy 447.04 374.65) (xy 447.04 406.908)
+			(xy 447.04 364.49) (xy 447.04 406.908)
 		)
 		(stroke
 			(width 0)
@@ -9771,7 +9771,7 @@
 	)
 	(polyline
 		(pts
-			(xy 469.9 374.65) (xy 447.04 374.65)
+			(xy 469.9 364.49) (xy 447.04 364.49)
 		)
 		(stroke
 			(width 0)
@@ -10592,7 +10592,7 @@
 	)
 	(text "Mounting holes"
 		(exclude_from_sim no)
-		(at 447.04 374.65 0)
+		(at 447.04 364.49 0)
 		(effects
 			(font
 				(size 2 2)
@@ -11533,6 +11533,69 @@
 			(project "axes-controller-board"
 				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98"
 					(reference "#PWR116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 452.12 378.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "086a45d5-d6da-42fe-9a81-fb7d622200b6")
+		(property "Reference" "H9"
+			(at 454.66 377.2916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 454.66 379.603 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Local:MountingHole_3.2mm_M3_ISO14580"
+			(at 452.12 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 452.12 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 452.12 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "axes-controller-board"
+				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98"
+					(reference "H9")
 					(unit 1)
 				)
 			)
@@ -14380,6 +14443,69 @@
 			(project "axes-controller-board"
 				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98"
 					(reference "#PWR130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 452.12 383.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "4998751a-9398-42fd-95a0-2c15d899f6ec")
+		(property "Reference" "H10"
+			(at 454.66 382.3716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 454.66 384.683 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Local:MountingHole_3.2mm_M3_ISO14580"
+			(at 452.12 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 452.12 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 452.12 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "axes-controller-board"
+				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98"
+					(reference "H10")
 					(unit 1)
 				)
 			)
@@ -19056,7 +19182,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 452.12 383.54 0)
+		(at 452.12 373.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -19064,7 +19190,7 @@
 		(dnp no)
 		(uuid "cc6b2ddb-b2f6-469e-89eb-e01e2493f9a6")
 		(property "Reference" "H4"
-			(at 454.66 382.3716 0)
+			(at 454.66 372.2116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19073,7 +19199,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 454.66 384.683 0)
+			(at 454.66 374.523 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19082,7 +19208,7 @@
 			)
 		)
 		(property "Footprint" "Local:MountingHole_3.2mm_M3_ISO14580"
-			(at 452.12 383.54 0)
+			(at 452.12 373.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19091,7 +19217,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 452.12 383.54 0)
+			(at 452.12 373.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19100,7 +19226,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 452.12 383.54 0)
+			(at 452.12 373.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19962,7 +20088,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 452.12 378.46 0)
+		(at 452.12 368.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -19970,7 +20096,7 @@
 		(dnp no)
 		(uuid "df0ae30c-061e-4a14-88ea-48d6b4c220fd")
 		(property "Reference" "H3"
-			(at 454.66 377.2916 0)
+			(at 454.66 367.1316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19979,7 +20105,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 454.66 379.603 0)
+			(at 454.66 369.443 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19988,7 +20114,7 @@
 			)
 		)
 		(property "Footprint" "Local:MountingHole_3.2mm_M3_ISO14580"
-			(at 452.12 378.46 0)
+			(at 452.12 368.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19997,7 +20123,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 452.12 378.46 0)
+			(at 452.12 368.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20006,7 +20132,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 452.12 378.46 0)
+			(at 452.12 368.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
