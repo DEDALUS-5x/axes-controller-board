@@ -36799,7 +36799,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2918489"
+		(property "LCSC" "C1779"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42652,7 +42652,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2918489"
+		(property "LCSC" "C1779"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -84568,14 +84568,14 @@
 	)
 	(group ""
 		(uuid "54fb5c3f-084d-4789-a38f-a6bc5114a916")
-		(members "0e6ec3b9-f3ce-4acd-b031-f146ff112162" "0e72b6d6-7516-4ef1-a53c-095a783ec3d8"
-			"283849a4-639c-4e3b-85ad-82a7f6ee1d40" "2921654e-5ed7-4126-bbec-c96390d9dc4b"
-			"362106d3-8a32-445e-b37c-e062c99838e9" "4121aa92-2083-428c-bfc6-395a770c91a7"
+		(members "08c47599-558d-49b3-853b-10eaa1c6f5c4" "0e72b6d6-7516-4ef1-a53c-095a783ec3d8"
+			"283849a4-639c-4e3b-85ad-82a7f6ee1d40" "362106d3-8a32-445e-b37c-e062c99838e9"
+			"3dc9c54c-90ac-4752-b100-b7c5cb08193d" "4121aa92-2083-428c-bfc6-395a770c91a7"
 			"5f0dcedb-77c6-413e-bb5f-1109becd5e6f" "624bc0fe-68c9-4bfb-802b-c62ae716d04e"
 			"6b2fe7c0-409c-4836-ae6b-94e5f2d4e382" "793a0102-7741-4027-b3ca-1845d12fd80a"
-			"8acdcc0f-7f0e-4d07-809d-e717cfd63c0b" "8e7a49b3-50d7-4fec-95a1-0f66db481fc8"
-			"ca88f92a-1fc0-4e3f-afad-34928e925eb3" "cb587acc-665d-44cf-977c-a5d621aca255"
-			"ccf2fb94-7256-4c7e-9ddd-0ed0ce898233" "d002f818-55ab-4600-bd71-2cb3dc725f11"
+			"8e7a49b3-50d7-4fec-95a1-0f66db481fc8" "a7b82dff-377c-4379-b197-d824e22a9ec5"
+			"cb587acc-665d-44cf-977c-a5d621aca255" "ccf2fb94-7256-4c7e-9ddd-0ed0ce898233"
+			"d002f818-55ab-4600-bd71-2cb3dc725f11" "d7974ace-1613-443f-a39f-9bc46d41f489"
 			"fd729499-432e-4795-8054-de997026a18c"
 		)
 	)
