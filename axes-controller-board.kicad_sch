@@ -13271,7 +13271,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.01u"
+		(property "Value" "10n"
 			(at 227.33 46.9899 0)
 			(effects
 				(font
@@ -13979,7 +13979,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.01u"
+		(property "Value" "10n"
 			(at 283.21 35.5599 0)
 			(effects
 				(font
@@ -14576,7 +14576,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 335.28 298.4499 0)
 			(effects
 				(font
@@ -15293,7 +15293,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C57112"
+		(property "LCSC" "C19702"
 			(at 401.32 46.99 0)
 			(effects
 				(font
@@ -15870,6 +15870,15 @@
 			)
 		)
 		(property "LCSC" "C72264"
+			(at 290.83 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "180"
 			(at 290.83 34.29 90)
 			(effects
 				(font
@@ -17717,7 +17726,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.01u"
+		(property "Value" "10n"
 			(at 320.04 35.5599 0)
 			(effects
 				(font
@@ -17796,7 +17805,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED_Small"
 			(at 426.72 52.3874 90)
 			(effects
 				(font
@@ -18036,7 +18045,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 347.98 298.4499 0)
 			(effects
 				(font
@@ -18492,6 +18501,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "270"
+			(at 236.22 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "70436056-e64b-4a56-a590-b9d06098cf5c")
 		)
@@ -18689,7 +18707,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED_Small"
 			(at 416.56 52.3874 90)
 			(effects
 				(font
@@ -19281,7 +19299,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C57112"
+		(property "LCSC" "C19702"
 			(at 358.14 46.99 0)
 			(effects
 				(font
@@ -19967,7 +19985,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C57112"
+		(property "LCSC" "C19702"
 			(at 392.43 46.99 0)
 			(effects
 				(font
