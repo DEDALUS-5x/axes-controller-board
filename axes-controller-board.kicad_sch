@@ -16044,9 +16044,9 @@
 		(at 330.2 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "575250bc-a4e5-442c-a376-030ae7a4c1db")
 		(property "Reference" "R9"
@@ -16094,7 +16094,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22993"
+		(property "LCSC" "C100959"
 			(at 330.2 50.8 0)
 			(effects
 				(font

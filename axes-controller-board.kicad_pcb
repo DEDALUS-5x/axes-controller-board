@@ -6469,7 +6469,7 @@
 			(uuid "36bcc499-93af-4e5a-a88f-a09def180dcb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0.499999 360)
+			(at 0 0.499999 0)
 			(layer "F.Fab")
 			(uuid "fed7a67f-b737-4d41-9194-62aca525b086")
 			(effects
@@ -7191,7 +7191,7 @@
 			(uuid "80a69e94-0bd2-41b1-9c90-cc38d2329edc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0.499999 360)
+			(at 0 0.499999 0)
 			(layer "F.Fab")
 			(uuid "811410c5-4a18-4005-bc02-39df3934bd29")
 			(effects
@@ -11730,7 +11730,7 @@
 			(uuid "f6016970-401c-4c52-a575-a8da1fc7333a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0.499999 360)
+			(at 0 0.499999 0)
 			(layer "F.Fab")
 			(uuid "39858a20-dd45-4e4e-bc5b-ab93168c5ece")
 			(effects
@@ -38315,7 +38315,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22993"
+		(property "LCSC" "C100959"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38332,7 +38332,7 @@
 		(path "/575250bc-a4e5-442c-a376-030ae7a4c1db")
 		(sheetname "Root")
 		(sheetfile "axes-controller-board.kicad_sch")
-		(attr smd exclude_from_bom dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -39770,7 +39770,7 @@
 			(uuid "40d4d5d5-1539-46bc-bea1-e21d299f8cb5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0.499999 360)
+			(at 0 0.499999 0)
 			(layer "F.Fab")
 			(uuid "7f7cab04-576c-4e72-8405-ece5a536b03d")
 			(effects
@@ -92900,11 +92900,13 @@
 	)
 	(group ""
 		(uuid "54fb5c3f-084d-4789-a38f-a6bc5114a916")
-		(members "0e72b6d6-7516-4ef1-a53c-095a783ec3d8" "283849a4-639c-4e3b-85ad-82a7f6ee1d40"
-			"362106d3-8a32-445e-b37c-e062c99838e9" "4121aa92-2083-428c-bfc6-395a770c91a7"
-			"5f0dcedb-77c6-413e-bb5f-1109becd5e6f" "624bc0fe-68c9-4bfb-802b-c62ae716d04e"
-			"6b2fe7c0-409c-4836-ae6b-94e5f2d4e382" "793a0102-7741-4027-b3ca-1845d12fd80a"
-			"8e7a49b3-50d7-4fec-95a1-0f66db481fc8" "cb587acc-665d-44cf-977c-a5d621aca255"
+		(members "0e72b6d6-7516-4ef1-a53c-095a783ec3d8" "1d479bdf-25d7-466a-81d4-08b489d309b6"
+			"283849a4-639c-4e3b-85ad-82a7f6ee1d40" "362106d3-8a32-445e-b37c-e062c99838e9"
+			"4121aa92-2083-428c-bfc6-395a770c91a7" "5f0dcedb-77c6-413e-bb5f-1109becd5e6f"
+			"624bc0fe-68c9-4bfb-802b-c62ae716d04e" "6b2fe7c0-409c-4836-ae6b-94e5f2d4e382"
+			"793a0102-7741-4027-b3ca-1845d12fd80a" "810a863d-37d3-4623-a3f6-78d3f187892d"
+			"8666c8d3-552b-402a-bbfb-3495754aca63" "8e7a49b3-50d7-4fec-95a1-0f66db481fc8"
+			"c691bc30-c8fc-4a45-8457-4efac30b0c3c" "cb587acc-665d-44cf-977c-a5d621aca255"
 			"ccf2fb94-7256-4c7e-9ddd-0ed0ce898233" "d002f818-55ab-4600-bd71-2cb3dc725f11"
 			"fd729499-432e-4795-8054-de997026a18c"
 		)
