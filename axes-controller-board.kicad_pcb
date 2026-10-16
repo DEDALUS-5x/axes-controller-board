@@ -7,6 +7,14 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(rev "1.0.0")
+		(company "Leonardo Pasquato")
+		(comment 1 "Copyright 2026 Leonardo Pasquato")
+		(comment 2 "Licensed under CERN-OHL-S-2.0, https://ohwr.org/cern_ohl_s_v2.txt")
+		(comment 3 "Source: https://github.com/DEDALUS-5x/axes-controller-board")
+		(comment 4 "Distributed WITHOUT ANY WARRANTY, see LICENSE")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(1 "In1.Cu" signal)

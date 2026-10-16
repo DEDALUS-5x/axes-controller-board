@@ -6,7 +6,12 @@
 	(paper "A2")
 	(title_block
 		(title "Dedalus Motherboard")
+		(rev "1.0.0")
 		(company "Leonardo Pasquato")
+		(comment 1 "Copyright 2026 Leonardo Pasquato")
+		(comment 2 "Licensed under CERN-OHL-S-2.0, https://ohwr.org/cern_ohl_s_v2.txt")
+		(comment 3 "Source: https://github.com/DEDALUS-5x/axes-controller-board")
+		(comment 4 "Distributed WITHOUT ANY WARRANTY, see LICENSE")
 	)
 	(lib_symbols
 		(symbol "Connector:Raspberry_Pi_2_3"

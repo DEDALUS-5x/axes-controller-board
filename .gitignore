@@ -5,3 +5,18 @@ _autosave*
 fp-info-cache
 fabrication*
 production/
+
+# Third-party ECAD models: SamacSys and vendor terms allow using them in designs
+# but forbid redistributing them as library components. See README.md.
+libs/STM32H7/
+libs/TPS5450/
+libs/ACS/
+libs/morsetto/
+libs/3dmodels/
+libs/footprints.pretty/1985*.kicad_mod
+libs/footprints.pretty/QFP50P2200X2200X160-144N.kicad_mod
+libs/footprints.pretty/SOIC127P*.kicad_mod
+libs/footprints.pretty/SAMTEC_*.kicad_mod
+
+# Datasheets are copyrighted by their manufacturers
+docs/*.pdf
