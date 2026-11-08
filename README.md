@@ -2,10 +2,12 @@
 
 KiCad design files of the Axes Controller Board, the STM32H723-based motion
 controller of the [DEDALUS](https://dedalus-5x.github.io/dedalus-docs/)
-five-axis printer. The board drives three brushed DC servo axes through
+five-axis printer. The board drives two brushed DC servo axes through
 external H-bridges and six stepper drivers in StepStick sockets, reads
 differential incremental and SPI absolute encoders, and carries a
 Raspberry Pi 5 as a daughterboard.
+
+Current revision: 1.1.0 (see [Revision history](#revision-history)).
 
 Firmware: <https://github.com/DEDALUS-5x/axes-controller-fw>
 
@@ -46,17 +48,41 @@ layout.
 | --- | --- | --- | --- |
 | STM32H723ZGT6 | IC5, microcontroller | `libs/STM32H7/STM32H723ZGT6/` | [Component Search Engine](https://componentsearchengine.com) (SamacSys) |
 | TPS5450QDDARQ1 | IC1, 5 V buck converter | `libs/TPS5450/` | [Component Search Engine](https://componentsearchengine.com) (SamacSys) |
-| ACS37800KMACTR-030B3-SPI | IC2-IC4, current monitors (optional) | `libs/ACS/` | [Component Search Engine](https://componentsearchengine.com) (SamacSys) |
+| ACS37800KMACTR-030B3-SPI | IC2, IC3, current monitors (optional) | `libs/ACS/` | [Component Search Engine](https://componentsearchengine.com) (SamacSys) |
 | Phoenix Contact 1985205, 1985234, 1985250 | Terminal blocks | `libs/morsetto/`, `libs/footprints.pretty/`, `libs/3dmodels/` | [Component Search Engine](https://componentsearchengine.com) (SamacSys) |
 | Samtec FTSH-107-01-L-DV-K-TR | J1, STDC14 debug connector | `libs/footprints.pretty/` | [Samtec](https://www.samtec.com) |
 | Raspberry Pi 4 Model B | 3D model only | `libs/3dmodels/` | [Raspberry Pi Ltd](https://www.raspberrypi.com) |
 
-## Revision 1.0.0 notes
+## Revision history
 
-On the prototype the following signals were re-routed with wires, because the
-STEP lines of five driver sockets reach pins without timer outputs and the
+### 1.1.0
+
+The layout matches the firmware
+([axes-controller-fw](https://github.com/DEDALUS-5x/axes-controller-fw)):
+no hand modifications are needed.
+
+- The STEP lines of five driver sockets go to timer outputs, so that steps are
+  generated in hardware: Z1 on PB9 (TIM17 CH1), Z2 on PB5 (TIM3 CH2), A1 on PC12
+  (TIM15 CH1), A2 on PB6 (TIM16 CH1N), C on PC7 (TIM8 CH2). The 33 ohm series
+  resistors are kept; R19 and R23 moved next to the new routes, R4 took the
+  place of R27.
+- The Raspberry Pi chip select (J27 pin 24) goes to PA4, the hardware NSS of
+  SPI3.
+- The third DC-servo channel is removed (terminal J4, resistors R27 and R28),
+  together with its current monitor IC4, capacitor C39 and supply terminal J30.
+- New connector J47 (1x8, 2.54 mm) for an SPI absolute encoder on SPI4, chip
+  select PC15. Same pinout as J31 and J32: 1-2 3V3, 3 not connected, 4 CS,
+  5 SCK, 6 MOSI, 7 MISO, 8 GND.
+- Spare header J5: pins 6 and 7 are no longer connected (PB5 and PB6 are STEP
+  lines now); six spare I/O remain.
+
+### 1.0.0 (prototype)
+
+On the 1.0.0 board the following signals must be re-routed with wires, because
+the STEP lines of five driver sockets reach pins without timer outputs and the
 Raspberry Pi chip select reaches a pin without the SPI3 hardware NSS function.
-The firmware uses the re-routed pins.
+The firmware uses the re-routed pins. On this revision the third DC-servo
+channel loses one PWM line (PC7 is used for STEP C).
 
 | Signal | Destination | Routed to | Re-routed to |
 | --- | --- | --- | --- |
