@@ -6,7 +6,7 @@
 	(paper "A2")
 	(title_block
 		(title "Dedalus Motherboard")
-		(rev "1.0.0")
+		(rev "1.1.0")
 		(company "Leonardo Pasquato")
 		(comment 1 "Copyright 2026 Leonardo Pasquato")
 		(comment 2 "Licensed under CERN-OHL-S-2.0, https://ohwr.org/cern_ohl_s_v2.txt")
@@ -4991,12 +4991,6 @@
 		(uuid "b98941ec-2cdd-42e4-89ba-da897f67b823")
 	)
 	(junction
-		(at 425.45 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf10c72b-3077-43c8-8faf-88f59deadcdd")
-	)
-	(junction
 		(at 160.02 355.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5734,16 +5728,6 @@
 		)
 		(uuid "135d60ba-4ced-47ff-ad24-9b51abd883b4")
 	)
-	(wire
-		(pts
-			(xy 426.72 165.1) (xy 422.91 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "142c87a5-7146-49a2-a066-bcc4dc3287cc")
-	)
 	(polyline
 		(pts
 			(xy 34.544 266.7) (xy 53.086 266.7)
@@ -5753,16 +5737,6 @@
 			(type default)
 		)
 		(uuid "143e98e6-e78d-4086-aa5e-7a573284a8d8")
-	)
-	(wire
-		(pts
-			(xy 104.14 261.62) (xy 104.14 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14d5ddfc-0eef-4b1e-911e-04f186763640")
 	)
 	(wire
 		(pts
@@ -5876,16 +5850,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 160.02) (xy 422.91 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ac55001-9d8a-474d-a1c9-205a656c959e")
-	)
-	(wire
-		(pts
 			(xy 549.91 213.36) (xy 556.26 213.36)
 		)
 		(stroke
@@ -5953,16 +5917,6 @@
 			(type default)
 		)
 		(uuid "1db173a5-bcc5-4ae8-9586-394f3685982c")
-	)
-	(wire
-		(pts
-			(xy 101.6 259.08) (xy 49.53 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e72fdbc-4360-4c79-a489-6000e580c452")
 	)
 	(wire
 		(pts
@@ -6253,16 +6207,6 @@
 			(type default)
 		)
 		(uuid "2bade743-d723-474c-8e99-382eb378df58")
-	)
-	(wire
-		(pts
-			(xy 332.74 162.56) (xy 420.37 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d81fbc9-6a3f-4549-923a-ab0ca6a21c9a")
 	)
 	(wire
 		(pts
@@ -6856,16 +6800,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 261.62) (xy 104.14 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49d8dc7e-d9c3-4358-9d2c-401937161545")
-	)
-	(wire
-		(pts
 			(xy 332.74 171.45) (xy 354.33 171.45)
 		)
 		(stroke
@@ -6893,16 +6827,6 @@
 			(type default)
 		)
 		(uuid "4a580226-cb94-4030-9316-f8cc3d09b7ab")
-	)
-	(wire
-		(pts
-			(xy 101.6 231.14) (xy 101.6 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a61c2b4-ac2e-4f2c-b55c-3e977eb346db")
 	)
 	(wire
 		(pts
@@ -7596,16 +7520,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 231.14) (xy 101.6 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ebd3cc8-6c13-46c3-956a-e6aba31e1d92")
-	)
-	(wire
-		(pts
 			(xy 316.23 30.48) (xy 316.23 29.21)
 		)
 		(stroke
@@ -7866,16 +7780,6 @@
 	)
 	(wire
 		(pts
-			(xy 426.72 170.18) (xy 425.45 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7aeee424-e563-42e7-b8eb-b78876bc9a08")
-	)
-	(wire
-		(pts
 			(xy 510.54 241.3) (xy 521.97 241.3)
 		)
 		(stroke
@@ -8106,16 +8010,6 @@
 	)
 	(wire
 		(pts
-			(xy 426.72 167.64) (xy 420.37 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8787e5e4-3b7b-4c7d-bdbe-c338f4e74237")
-	)
-	(wire
-		(pts
 			(xy 176.53 152.4) (xy 176.53 190.5)
 		)
 		(stroke
@@ -8213,16 +8107,6 @@
 			(type default)
 		)
 		(uuid "8bb416ac-b5f1-441e-8cf1-78ee005a4bb6")
-	)
-	(wire
-		(pts
-			(xy 422.91 165.1) (xy 422.91 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bddfebb-05a0-41e4-9cc2-b877dda901ab")
 	)
 	(wire
 		(pts
@@ -9756,16 +9640,6 @@
 	)
 	(wire
 		(pts
-			(xy 420.37 167.64) (xy 420.37 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1fc868c-68ef-4a7b-b9ca-f9604c872cfd")
-	)
-	(wire
-		(pts
 			(xy 193.04 46.99) (xy 193.04 50.8)
 		)
 		(stroke
@@ -9853,16 +9727,6 @@
 			(type default)
 		)
 		(uuid "d53d2da6-a1b3-4333-ba2e-4c854cf96b85")
-	)
-	(wire
-		(pts
-			(xy 104.14 233.68) (xy 113.03 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d557b8a6-9bd2-4147-99b9-bdd8c84ec695")
 	)
 	(polyline
 		(pts
@@ -13138,74 +13002,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 44.45 259.08 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "1bb5fbec-bac0-40ae-bdcd-3a382ca92ea4")
-		(property "Reference" "J30"
-			(at 39.878 262.128 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DC3"
-			(at 39.878 259.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 44.45 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 44.45 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e2c07fe6-ac25-4724-9b8f-018ad84ba354")
-		)
-		(pin "2"
-			(uuid "5f061b3a-494e-4958-850c-b5976aac934f")
-		)
-		(instances
-			(project "axes-controller-board"
-				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98"
-					(reference "J30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 521.97 66.04 0)
 		(unit 1)
@@ -14157,79 +13953,6 @@
 			(project "axes-controller-board"
 				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98"
 					(reference "#PWR1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 431.8 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "311d430c-8aa5-457d-804b-a1390750da67")
-		(property "Reference" "J4"
-			(at 434.34 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 434.34 168.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Local:1985205"
-			(at 431.8 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 431.8 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 431.8 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac0528bd-13bd-4462-b8c7-91e2eada0068")
-		)
-		(pin "3"
-			(uuid "d10a55f0-a565-486d-8f9c-91c6266aa5a6")
-		)
-		(pin "2"
-			(uuid "46eceda5-8464-4151-b1f3-c47bae7b61c7")
-		)
-		(instances
-			(project "axes-controller-board"
-				(path "/88591975-6c45-4e1d-8f38-0b5760acfc98"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -22341,16 +22064,6 @@
 			)
 			(uuid "e80f0626-200d-4ca9-ae87-20223e1e0427")
 		)
-		(pin "Y2_DC_PWM_1" output
-			(at 332.74 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "6b12699c-f066-43d0-9baf-75b6ba1b6e01")
-		)
 		(pin "Y1_DC_PWM_2" output
 			(at 332.74 157.48 0)
 			(effects
@@ -22360,16 +22073,6 @@
 				(justify right)
 			)
 			(uuid "9c9cd829-29c5-4799-9d10-a639492c93ce")
-		)
-		(pin "Y2_DC_PWM_2" output
-			(at 332.74 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "533a1a31-ac36-4672-842a-b4a646cd4c47")
 		)
 		(pin "SPI2_SCK" output
 			(at 269.24 207.01 180)
@@ -23138,26 +22841,6 @@
 				(justify right)
 			)
 			(uuid "b4568b3f-5872-476a-a9aa-2bc71d8b6a92")
-		)
-		(pin "DC_3_IN" input
-			(at 113.03 231.14 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f7158e4b-e5e8-46c4-abcb-7eda71e898d0")
-		)
-		(pin "DC_3_OUT" output
-			(at 113.03 233.68 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "755b4dc2-54fa-469d-bf84-992b3697e40d")
 		)
 		(pin "SPI4_CSS_Y1" input
 			(at 165.1 220.98 0)
